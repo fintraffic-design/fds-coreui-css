@@ -1,0 +1,4 @@
+@mixin resizable($dir) {
+	resize: $dir; // horizontal, vertical, both
+	overflow: auto;
+}
