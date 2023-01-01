@@ -4,15 +4,6 @@
     * Copyright 2022 Traffic Management Company Fintraffic Ltd / Liikenteenohjausyhtiö Fintraffic Oy
     * UNLICENSED
     */
-/* ITCSS: Inverted Triangle CSS
-   ****************   1. Settings
-    **************    2. Tools
-     ************     3. Generic
-      **********      4. Elements
-       ********       5. Objects
-        ******        6. Components
-         ****         7. Modules
-          **          8. Helpers */
 *,
 *::before,
 *::after {
@@ -334,4 +325,16 @@ progress {
 }
 [hidden] {
   display: none !important;
+}
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  height: 1px !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
 }
