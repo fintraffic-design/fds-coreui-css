@@ -1,0 +1,71 @@
+@import 'mixins/cr-banner';
+@include crBanner('');
+
+// 1. Settings
+//
+// Global settings and everything for preprocessors such as variables,
+// font and color definitions etc. Doesn't output any CSS.
+
+@import 'tokens';
+@import 'functions';
+@import 'variables';
+@import 'maps';
+
+// 2. Tools
+//
+// Global mixins and functions. Doesn't output any CSS.
+
+@import 'mixins';
+@import 'utilities';
+
+// 3. Generic
+//
+// Resetting and normalizing of browser styles, such as box-sizing.
+
+@import 'root';
+@import 'reboot';
+
+// 4. Elements
+//
+// Styling for HTML elements, such as h1, a, p and so on.
+
+@import "type";
+@import "images";
+
+// 5. Objects
+//
+// Common, non-cosmetic structural design patterns such as containers,
+// rows, grids, columns etc.
+
+@import "containers";
+@import "grid";
+
+
+// 6. Components
+//
+// Simple components (atoms), such as buttons, cards, alerts, inputs etc.
+
+@import "components/accordion";
+@import "components/action-sheet";
+@import "components/alert";
+@import "components/avatar";
+@import "components/button";
+@import "components/button-group";
+@import "components/card";
+@import "components/dialog";
+@import "components/drawer";
+@import "components/dropdown";
+@import "components/forms";
+@import "components/menu";
+@import "components/navbar";
+@import "components/popover";
+@import "components/table";
+@import "components/tag";
+@import "components/tooltip";
+
+// 7. Helpers
+//
+// Helper classes that override anything that comes before them.
+
+@import "transitions";
+@import 'helpers';
