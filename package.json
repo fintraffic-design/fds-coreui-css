@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-    "files": ["css", "scss"],
+	"files": ["dist", "src/scss"],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
