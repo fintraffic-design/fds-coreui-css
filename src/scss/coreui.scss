@@ -67,4 +67,6 @@
 //
 // Helper classes that override anything that comes before them.
 
-@import 'helpers';
+@import 'helpers/transitions';
+@import 'helpers/visually-hidden';
+@import 'helpers/spacing.scss';
