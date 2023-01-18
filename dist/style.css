@@ -326,6 +326,18 @@ progress {
 [hidden] {
   display: none !important;
 }
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  height: 1px !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
 /*!
     * Fintraffic CoreUI Spacing helpers v1.0 (https://design.fintraffic.fi)
     * Copyright 2022 Traffic Management Company Fintraffic Ltd / Liikenteenohjausyhtiö Fintraffic Oy
