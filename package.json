@@ -6,7 +6,7 @@
 	"files": ["dist", "src/scss"],
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
+		"build": "style-dictionary build --config tokens/config-scss.cjs && tsc && vite build && style-dictionary build --config tokens/config-js-css.cjs",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
