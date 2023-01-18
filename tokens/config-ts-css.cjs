@@ -1,7 +1,7 @@
 module.exports = {
   source: ['tokens/**/*.json'],
   format: {
-    jsCss: ({ dictionary }) => {
+    tsCss: ({ dictionary }) => {
       const tokens = dictionary
         .allTokens
         .map(token => `  "${token.name}": "var(--${token.name}, ${token.value})"`)
@@ -21,13 +21,13 @@ module.exports = {
         }
       ]
     },
-    jsCss: {
+    tsCss: {
       transformGroup: 'css',
       buildPath: 'dist/',
       files: [
         {
-          destination: 'tokens.js',
-          format: 'jsCss'
+          destination: 'tokens.ts',
+          format: 'tsCss'
         }
       ]
     }
