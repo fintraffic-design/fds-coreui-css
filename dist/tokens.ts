@@ -1,224 +1,224 @@
-export const tokens = {
-  "size-1": "8px",
-  "size-2": "16px",
-  "size-3": "24px",
-  "size-4": "32px",
-  "size-6": "48px",
-  "size-8": "64px",
-  "size-12": "96px",
-  "size-16": "128px",
-  "size-24": "192px",
-  "size-32": "256px",
-  "radius-compact": "2px",
-  "radius-normal": "4px",
-  "radius-large": "8px",
-  "radius-rounded": "1000px",
-  "style-elevation-100": "0px 1px 2px 0px rgba(0, 0, 0, 0.24), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)",
-  "style-elevation-200": "0px 6px 6px 0px rgba(0, 0, 0, 0.23), 0px 3px 6px 0px rgba(0, 0, 0, 0.16)",
-  "style-elevation-300": "0px 6px 12px 0px rgba(0, 0, 0, 0.23), 0px 20px 20px 0px rgba(0, 0, 0, 0.19)",
-  "style-elevation-400": "0px 20px 20px 0px rgba(0, 0, 0, 0.22), 0px 50px 100px 0px rgba(0, 0, 0, 0.25)",
-  "typography-body-default-font-family": "'Public Sans'",
-  "typography-body-default-font-size": "16px",
-  "typography-body-default-letter-spacing": "0px",
-  "typography-body-default-line-height": "150%",
-  "typography-body-default-font-weight": "400",
-  "typography-body-default-display": "inline-block",
-  "typography-body-large-font-family": "'Public Sans'",
-  "typography-body-large-font-size": "18px",
-  "typography-body-large-letter-spacing": "0px",
-  "typography-body-large-line-height": "150%",
-  "typography-body-large-font-weight": "400",
-  "typography-body-large-display": "inline-block",
-  "typography-body-micro-font-family": "'Public Sans'",
-  "typography-body-micro-font-size": "12px",
-  "typography-body-micro-letter-spacing": "0px",
-  "typography-body-micro-line-height": "150%",
-  "typography-body-micro-font-weight": "400",
-  "typography-body-micro-display": "inline-block",
-  "typography-body-small-font-family": "'Public Sans'",
-  "typography-body-small-font-size": "14px",
-  "typography-body-small-letter-spacing": "0px",
-  "typography-body-small-line-height": "150%",
-  "typography-body-small-font-weight": "400",
-  "typography-body-small-display": "inline-block",
-  "typography-emphasis-default-font-family": "'Public Sans'",
-  "typography-emphasis-default-font-size": "16px",
-  "typography-emphasis-default-letter-spacing": "0px",
-  "typography-emphasis-default-line-height": "150%",
-  "typography-emphasis-default-font-weight": "700",
-  "typography-emphasis-default-display": "inline-block",
-  "typography-emphasis-large-font-family": "'Public Sans'",
-  "typography-emphasis-large-font-size": "18px",
-  "typography-emphasis-large-letter-spacing": "0px",
-  "typography-emphasis-large-line-height": "150%",
-  "typography-emphasis-large-font-weight": "700",
-  "typography-emphasis-large-display": "inline-block",
-  "typography-emphasis-micro-font-family": "'Public Sans'",
-  "typography-emphasis-micro-font-size": "12px",
-  "typography-emphasis-micro-letter-spacing": "0px",
-  "typography-emphasis-micro-line-height": "150%",
-  "typography-emphasis-micro-font-weight": "700",
-  "typography-emphasis-micro-display": "inline-block",
-  "typography-emphasis-small-font-family": "'Public Sans'",
-  "typography-emphasis-small-font-size": "14px",
-  "typography-emphasis-small-letter-spacing": "0px",
-  "typography-emphasis-small-line-height": "150%",
-  "typography-emphasis-small-font-weight": "700",
-  "typography-emphasis-small-display": "inline-block",
-  "typography-heading-large-heading-3-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-3-font-size": "40px",
-  "typography-heading-large-heading-3-letter-spacing": "0px",
-  "typography-heading-large-heading-3-line-height": "110%",
-  "typography-heading-large-heading-3-font-weight": "700",
-  "typography-heading-large-heading-3-display": "inline-block",
-  "typography-heading-large-heading-4-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-4-font-size": "32px",
-  "typography-heading-large-heading-4-letter-spacing": "0px",
-  "typography-heading-large-heading-4-line-height": "110%",
-  "typography-heading-large-heading-4-font-weight": "700",
-  "typography-heading-large-heading-4-display": "inline-block",
-  "typography-heading-large-heading-5-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-5-font-size": "28px",
-  "typography-heading-large-heading-5-letter-spacing": "0px",
-  "typography-heading-large-heading-5-line-height": "110%",
-  "typography-heading-large-heading-5-font-weight": "700",
-  "typography-heading-large-heading-5-display": "inline-block",
-  "typography-heading-large-heading-6-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-6-font-size": "20px",
-  "typography-heading-large-heading-6-letter-spacing": "0px",
-  "typography-heading-large-heading-6-line-height": "110%",
-  "typography-heading-large-heading-6-font-weight": "700",
-  "typography-heading-large-heading-6-display": "inline-block",
-  "typography-heading-large-heading-1-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-1-font-size": "64px",
-  "typography-heading-large-heading-1-letter-spacing": "0px",
-  "typography-heading-large-heading-1-line-height": "110%",
-  "typography-heading-large-heading-1-font-weight": "700",
-  "typography-heading-large-heading-1-display": "inline-block",
-  "typography-heading-large-heading-2-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-large-heading-2-font-size": "48px",
-  "typography-heading-large-heading-2-letter-spacing": "0px",
-  "typography-heading-large-heading-2-line-height": "110%",
-  "typography-heading-large-heading-2-font-weight": "700",
-  "typography-heading-large-heading-2-display": "inline-block",
-  "typography-heading-small-heading-1-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-1-font-size": "42px",
-  "typography-heading-small-heading-1-letter-spacing": "0px",
-  "typography-heading-small-heading-1-line-height": "110%",
-  "typography-heading-small-heading-1-font-weight": "700",
-  "typography-heading-small-heading-1-display": "inline-block",
-  "typography-heading-small-heading-2-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-2-font-size": "32px",
-  "typography-heading-small-heading-2-letter-spacing": "0px",
-  "typography-heading-small-heading-2-line-height": "110%",
-  "typography-heading-small-heading-2-font-weight": "700",
-  "typography-heading-small-heading-2-display": "inline-block",
-  "typography-heading-small-heading-3-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-3-font-size": "28px",
-  "typography-heading-small-heading-3-letter-spacing": "0px",
-  "typography-heading-small-heading-3-line-height": "110%",
-  "typography-heading-small-heading-3-font-weight": "700",
-  "typography-heading-small-heading-3-display": "inline-block",
-  "typography-heading-small-heading-4-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-4-font-size": "24px",
-  "typography-heading-small-heading-4-letter-spacing": "0px",
-  "typography-heading-small-heading-4-line-height": "110%",
-  "typography-heading-small-heading-4-font-weight": "700",
-  "typography-heading-small-heading-4-display": "inline-block",
-  "typography-heading-small-heading-5-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-5-font-size": "18px",
-  "typography-heading-small-heading-5-letter-spacing": "0px",
-  "typography-heading-small-heading-5-line-height": "110%",
-  "typography-heading-small-heading-5-font-weight": "700",
-  "typography-heading-small-heading-5-display": "inline-block",
-  "typography-heading-small-heading-6-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-heading-small-heading-6-font-size": "16px",
-  "typography-heading-small-heading-6-letter-spacing": "0px",
-  "typography-heading-small-heading-6-line-height": "110%",
-  "typography-heading-small-heading-6-font-weight": "700",
-  "typography-heading-small-heading-6-display": "inline-block",
-  "typography-link-large-font-family": "'Public Sans'",
-  "typography-link-large-font-size": "18px",
-  "typography-link-large-letter-spacing": "0px",
-  "typography-link-large-line-height": "150%",
-  "typography-link-large-font-weight": "400",
-  "typography-link-large-text-decoration": "underline",
-  "typography-link-large-display": "inline-block",
-  "typography-link-micro-font-family": "'Public Sans'",
-  "typography-link-micro-font-size": "12px",
-  "typography-link-micro-letter-spacing": "0px",
-  "typography-link-micro-line-height": "150%",
-  "typography-link-micro-font-weight": "400",
-  "typography-link-micro-text-decoration": "underline",
-  "typography-link-micro-display": "inline-block",
-  "typography-link-small-font-family": "'Public Sans'",
-  "typography-link-small-font-size": "14px",
-  "typography-link-small-letter-spacing": "0px",
-  "typography-link-small-line-height": "150%",
-  "typography-link-small-font-weight": "400",
-  "typography-link-small-text-decoration": "underline",
-  "typography-link-small-display": "inline-block",
-  "typography-link-default-font-family": "'Public Sans'",
-  "typography-link-default-font-size": "16px",
-  "typography-link-default-letter-spacing": "0px",
-  "typography-link-default-line-height": "150%",
-  "typography-link-default-font-weight": "400",
-  "typography-link-default-text-decoration": "underline",
-  "typography-link-default-display": "inline-block",
-  "typography-ui-helper-font-family": "'Public Sans', 'PublicSans-Regular'",
-  "typography-ui-helper-font-size": "15px",
-  "typography-ui-helper-letter-spacing": "0px",
-  "typography-ui-helper-line-height": "100%",
-  "typography-ui-helper-font-weight": "400",
-  "typography-ui-helper-display": "inline-block",
-  "typography-ui-id-font-family": "'Roboto Mono'",
-  "typography-ui-id-font-size": "13px",
-  "typography-ui-id-letter-spacing": "0px",
-  "typography-ui-id-line-height": "100%",
-  "typography-ui-id-font-weight": "700",
-  "typography-ui-id-display": "inline-block",
-  "typography-ui-label-font-family": "'Public Sans', 'PublicSans-Medium'",
-  "typography-ui-label-font-size": "16px",
-  "typography-ui-label-letter-spacing": "0px",
-  "typography-ui-label-line-height": "22px",
-  "typography-ui-label-font-weight": "500",
-  "typography-ui-label-display": "inline-block",
-  "typography-ui-placeholder-font-family": "'Public Sans', 'PublicSans-Medium'",
-  "typography-ui-placeholder-font-size": "16px",
-  "typography-ui-placeholder-letter-spacing": "0px",
-  "typography-ui-placeholder-line-height": "100%",
-  "typography-ui-placeholder-font-weight": "500",
-  "typography-ui-placeholder-display": "inline-block",
-  "typography-ui-tag-font-family": "'Public Sans', 'PublicSans-Bold'",
-  "typography-ui-tag-font-size": "16px",
-  "typography-ui-tag-letter-spacing": "0px",
-  "typography-ui-tag-line-height": "100%",
-  "typography-ui-tag-font-weight": "700",
-  "typography-ui-tag-display": "inline-block",
-  "color-brand-black": "#000000",
-  "color-brand-white": "#ffffff",
-  "color-danger-100": "#ff9b87",
-  "color-danger-200": "#e55636",
-  "color-danger-300": "#b40000",
-  "color-danger-400": "#720000",
-  "color-interactive-100": "#90cefe",
-  "color-interactive-200": "#1777f8",
-  "color-interactive-300": "#0034ac",
-  "color-interactive-400": "#001c5b",
-  "color-neutral-100": "#cdcdd7",
-  "color-neutral-200": "#9696aa",
-  "color-neutral-300": "#505064",
-  "color-neutral-400": "#2c2c44",
-  "color-success-100": "#82e8c3",
-  "color-success-200": "#25a794",
-  "color-success-300": "#005f61",
-  "color-success-400": "#004042",
-  "color-text-1": "#ffffff",
-  "color-text-300": "#9696aa",
-  "color-text-600": "#505064",
-  "color-text-1000": "#000000",
-  "color-warning-100": "#ffe37f",
-  "color-warning-200": "#eec200",
-  "color-warning-300": "#b47324",
-  "color-warning-400": "#6c3e05"
-}
+export type FdsToken = { name: "fds-size-1", value: "8px" } | { name: "fds-size-2", value: "16px" } | { name: "fds-size-3", value: "24px" } | { name: "fds-size-4", value: "32px" } | { name: "fds-size-6", value: "48px" } | { name: "fds-size-8", value: "64px" } | { name: "fds-size-12", value: "96px" } | { name: "fds-size-16", value: "128px" } | { name: "fds-size-24", value: "192px" } | { name: "fds-size-32", value: "256px" } | { name: "fds-radius-compact", value: "2px" } | { name: "fds-radius-normal", value: "4px" } | { name: "fds-radius-large", value: "8px" } | { name: "fds-radius-rounded", value: "1000px" } | { name: "fds-style-elevation-100", value: "0px 1px 2px 0px rgba(0, 0, 0, 0.24), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)" } | { name: "fds-style-elevation-200", value: "0px 6px 6px 0px rgba(0, 0, 0, 0.23), 0px 3px 6px 0px rgba(0, 0, 0, 0.16)" } | { name: "fds-style-elevation-300", value: "0px 6px 12px 0px rgba(0, 0, 0, 0.23), 0px 20px 20px 0px rgba(0, 0, 0, 0.19)" } | { name: "fds-style-elevation-400", value: "0px 20px 20px 0px rgba(0, 0, 0, 0.22), 0px 50px 100px 0px rgba(0, 0, 0, 0.25)" } | { name: "fds-typography-body-default-font-family", value: "'Public Sans'" } | { name: "fds-typography-body-default-font-size", value: "16px" } | { name: "fds-typography-body-default-letter-spacing", value: "0px" } | { name: "fds-typography-body-default-line-height", value: "150%" } | { name: "fds-typography-body-default-font-weight", value: "400" } | { name: "fds-typography-body-default-display", value: "inline-block" } | { name: "fds-typography-body-large-font-family", value: "'Public Sans'" } | { name: "fds-typography-body-large-font-size", value: "18px" } | { name: "fds-typography-body-large-letter-spacing", value: "0px" } | { name: "fds-typography-body-large-line-height", value: "150%" } | { name: "fds-typography-body-large-font-weight", value: "400" } | { name: "fds-typography-body-large-display", value: "inline-block" } | { name: "fds-typography-body-micro-font-family", value: "'Public Sans'" } | { name: "fds-typography-body-micro-font-size", value: "12px" } | { name: "fds-typography-body-micro-letter-spacing", value: "0px" } | { name: "fds-typography-body-micro-line-height", value: "150%" } | { name: "fds-typography-body-micro-font-weight", value: "400" } | { name: "fds-typography-body-micro-display", value: "inline-block" } | { name: "fds-typography-body-small-font-family", value: "'Public Sans'" } | { name: "fds-typography-body-small-font-size", value: "14px" } | { name: "fds-typography-body-small-letter-spacing", value: "0px" } | { name: "fds-typography-body-small-line-height", value: "150%" } | { name: "fds-typography-body-small-font-weight", value: "400" } | { name: "fds-typography-body-small-display", value: "inline-block" } | { name: "fds-typography-emphasis-default-font-family", value: "'Public Sans'" } | { name: "fds-typography-emphasis-default-font-size", value: "16px" } | { name: "fds-typography-emphasis-default-letter-spacing", value: "0px" } | { name: "fds-typography-emphasis-default-line-height", value: "150%" } | { name: "fds-typography-emphasis-default-font-weight", value: "700" } | { name: "fds-typography-emphasis-default-display", value: "inline-block" } | { name: "fds-typography-emphasis-large-font-family", value: "'Public Sans'" } | { name: "fds-typography-emphasis-large-font-size", value: "18px" } | { name: "fds-typography-emphasis-large-letter-spacing", value: "0px" } | { name: "fds-typography-emphasis-large-line-height", value: "150%" } | { name: "fds-typography-emphasis-large-font-weight", value: "700" } | { name: "fds-typography-emphasis-large-display", value: "inline-block" } | { name: "fds-typography-emphasis-micro-font-family", value: "'Public Sans'" } | { name: "fds-typography-emphasis-micro-font-size", value: "12px" } | { name: "fds-typography-emphasis-micro-letter-spacing", value: "0px" } | { name: "fds-typography-emphasis-micro-line-height", value: "150%" } | { name: "fds-typography-emphasis-micro-font-weight", value: "700" } | { name: "fds-typography-emphasis-micro-display", value: "inline-block" } | { name: "fds-typography-emphasis-small-font-family", value: "'Public Sans'" } | { name: "fds-typography-emphasis-small-font-size", value: "14px" } | { name: "fds-typography-emphasis-small-letter-spacing", value: "0px" } | { name: "fds-typography-emphasis-small-line-height", value: "150%" } | { name: "fds-typography-emphasis-small-font-weight", value: "700" } | { name: "fds-typography-emphasis-small-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-3-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-3-font-size", value: "40px" } | { name: "fds-typography-heading-large-heading-3-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-3-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-3-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-3-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-4-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-4-font-size", value: "32px" } | { name: "fds-typography-heading-large-heading-4-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-4-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-4-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-4-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-5-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-5-font-size", value: "28px" } | { name: "fds-typography-heading-large-heading-5-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-5-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-5-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-5-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-6-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-6-font-size", value: "20px" } | { name: "fds-typography-heading-large-heading-6-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-6-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-6-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-6-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-1-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-1-font-size", value: "64px" } | { name: "fds-typography-heading-large-heading-1-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-1-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-1-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-1-display", value: "inline-block" } | { name: "fds-typography-heading-large-heading-2-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-large-heading-2-font-size", value: "48px" } | { name: "fds-typography-heading-large-heading-2-letter-spacing", value: "0px" } | { name: "fds-typography-heading-large-heading-2-line-height", value: "110%" } | { name: "fds-typography-heading-large-heading-2-font-weight", value: "700" } | { name: "fds-typography-heading-large-heading-2-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-1-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-1-font-size", value: "42px" } | { name: "fds-typography-heading-small-heading-1-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-1-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-1-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-1-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-2-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-2-font-size", value: "32px" } | { name: "fds-typography-heading-small-heading-2-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-2-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-2-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-2-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-3-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-3-font-size", value: "28px" } | { name: "fds-typography-heading-small-heading-3-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-3-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-3-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-3-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-4-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-4-font-size", value: "24px" } | { name: "fds-typography-heading-small-heading-4-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-4-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-4-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-4-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-5-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-5-font-size", value: "18px" } | { name: "fds-typography-heading-small-heading-5-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-5-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-5-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-5-display", value: "inline-block" } | { name: "fds-typography-heading-small-heading-6-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-heading-small-heading-6-font-size", value: "16px" } | { name: "fds-typography-heading-small-heading-6-letter-spacing", value: "0px" } | { name: "fds-typography-heading-small-heading-6-line-height", value: "110%" } | { name: "fds-typography-heading-small-heading-6-font-weight", value: "700" } | { name: "fds-typography-heading-small-heading-6-display", value: "inline-block" } | { name: "fds-typography-link-large-font-family", value: "'Public Sans'" } | { name: "fds-typography-link-large-font-size", value: "18px" } | { name: "fds-typography-link-large-letter-spacing", value: "0px" } | { name: "fds-typography-link-large-line-height", value: "150%" } | { name: "fds-typography-link-large-font-weight", value: "400" } | { name: "fds-typography-link-large-text-decoration", value: "underline" } | { name: "fds-typography-link-large-display", value: "inline-block" } | { name: "fds-typography-link-micro-font-family", value: "'Public Sans'" } | { name: "fds-typography-link-micro-font-size", value: "12px" } | { name: "fds-typography-link-micro-letter-spacing", value: "0px" } | { name: "fds-typography-link-micro-line-height", value: "150%" } | { name: "fds-typography-link-micro-font-weight", value: "400" } | { name: "fds-typography-link-micro-text-decoration", value: "underline" } | { name: "fds-typography-link-micro-display", value: "inline-block" } | { name: "fds-typography-link-small-font-family", value: "'Public Sans'" } | { name: "fds-typography-link-small-font-size", value: "14px" } | { name: "fds-typography-link-small-letter-spacing", value: "0px" } | { name: "fds-typography-link-small-line-height", value: "150%" } | { name: "fds-typography-link-small-font-weight", value: "400" } | { name: "fds-typography-link-small-text-decoration", value: "underline" } | { name: "fds-typography-link-small-display", value: "inline-block" } | { name: "fds-typography-link-default-font-family", value: "'Public Sans'" } | { name: "fds-typography-link-default-font-size", value: "16px" } | { name: "fds-typography-link-default-letter-spacing", value: "0px" } | { name: "fds-typography-link-default-line-height", value: "150%" } | { name: "fds-typography-link-default-font-weight", value: "400" } | { name: "fds-typography-link-default-text-decoration", value: "underline" } | { name: "fds-typography-link-default-display", value: "inline-block" } | { name: "fds-typography-ui-helper-font-family", value: "'Public Sans', 'PublicSans-Regular'" } | { name: "fds-typography-ui-helper-font-size", value: "15px" } | { name: "fds-typography-ui-helper-letter-spacing", value: "0px" } | { name: "fds-typography-ui-helper-line-height", value: "100%" } | { name: "fds-typography-ui-helper-font-weight", value: "400" } | { name: "fds-typography-ui-helper-display", value: "inline-block" } | { name: "fds-typography-ui-id-font-family", value: "'Roboto Mono'" } | { name: "fds-typography-ui-id-font-size", value: "13px" } | { name: "fds-typography-ui-id-letter-spacing", value: "0px" } | { name: "fds-typography-ui-id-line-height", value: "100%" } | { name: "fds-typography-ui-id-font-weight", value: "700" } | { name: "fds-typography-ui-id-display", value: "inline-block" } | { name: "fds-typography-ui-label-font-family", value: "'Public Sans', 'PublicSans-Medium'" } | { name: "fds-typography-ui-label-font-size", value: "16px" } | { name: "fds-typography-ui-label-letter-spacing", value: "0px" } | { name: "fds-typography-ui-label-line-height", value: "22px" } | { name: "fds-typography-ui-label-font-weight", value: "500" } | { name: "fds-typography-ui-label-display", value: "inline-block" } | { name: "fds-typography-ui-placeholder-font-family", value: "'Public Sans', 'PublicSans-Medium'" } | { name: "fds-typography-ui-placeholder-font-size", value: "16px" } | { name: "fds-typography-ui-placeholder-letter-spacing", value: "0px" } | { name: "fds-typography-ui-placeholder-line-height", value: "100%" } | { name: "fds-typography-ui-placeholder-font-weight", value: "500" } | { name: "fds-typography-ui-placeholder-display", value: "inline-block" } | { name: "fds-typography-ui-tag-font-family", value: "'Public Sans', 'PublicSans-Bold'" } | { name: "fds-typography-ui-tag-font-size", value: "16px" } | { name: "fds-typography-ui-tag-letter-spacing", value: "0px" } | { name: "fds-typography-ui-tag-line-height", value: "100%" } | { name: "fds-typography-ui-tag-font-weight", value: "700" } | { name: "fds-typography-ui-tag-display", value: "inline-block" } | { name: "fds-color-brand-black", value: "#000000" } | { name: "fds-color-brand-white", value: "#ffffff" } | { name: "fds-color-danger-100", value: "#ff9b87" } | { name: "fds-color-danger-200", value: "#e55636" } | { name: "fds-color-danger-300", value: "#b40000" } | { name: "fds-color-danger-400", value: "#720000" } | { name: "fds-color-interactive-100", value: "#90cefe" } | { name: "fds-color-interactive-200", value: "#1777f8" } | { name: "fds-color-interactive-300", value: "#0034ac" } | { name: "fds-color-interactive-400", value: "#001c5b" } | { name: "fds-color-neutral-100", value: "#cdcdd7" } | { name: "fds-color-neutral-200", value: "#9696aa" } | { name: "fds-color-neutral-300", value: "#505064" } | { name: "fds-color-neutral-400", value: "#2c2c44" } | { name: "fds-color-success-100", value: "#82e8c3" } | { name: "fds-color-success-200", value: "#25a794" } | { name: "fds-color-success-300", value: "#005f61" } | { name: "fds-color-success-400", value: "#004042" } | { name: "fds-color-text-1", value: "#ffffff" } | { name: "fds-color-text-300", value: "#9696aa" } | { name: "fds-color-text-600", value: "#505064" } | { name: "fds-color-text-1000", value: "#000000" } | { name: "fds-color-warning-100", value: "#ffe37f" } | { name: "fds-color-warning-200", value: "#eec200" } | { name: "fds-color-warning-300", value: "#b47324" } | { name: "fds-color-warning-400", value: "#6c3e05" }
+export type FdsColorToken = { name: "fds-color-brand-black", value: "#000000" } | { name: "fds-color-brand-white", value: "#ffffff" } | { name: "fds-color-danger-100", value: "#ff9b87" } | { name: "fds-color-danger-200", value: "#e55636" } | { name: "fds-color-danger-300", value: "#b40000" } | { name: "fds-color-danger-400", value: "#720000" } | { name: "fds-color-interactive-100", value: "#90cefe" } | { name: "fds-color-interactive-200", value: "#1777f8" } | { name: "fds-color-interactive-300", value: "#0034ac" } | { name: "fds-color-interactive-400", value: "#001c5b" } | { name: "fds-color-neutral-100", value: "#cdcdd7" } | { name: "fds-color-neutral-200", value: "#9696aa" } | { name: "fds-color-neutral-300", value: "#505064" } | { name: "fds-color-neutral-400", value: "#2c2c44" } | { name: "fds-color-success-100", value: "#82e8c3" } | { name: "fds-color-success-200", value: "#25a794" } | { name: "fds-color-success-300", value: "#005f61" } | { name: "fds-color-success-400", value: "#004042" } | { name: "fds-color-text-1", value: "#ffffff" } | { name: "fds-color-text-300", value: "#9696aa" } | { name: "fds-color-text-600", value: "#505064" } | { name: "fds-color-text-1000", value: "#000000" } | { name: "fds-color-warning-100", value: "#ffe37f" } | { name: "fds-color-warning-200", value: "#eec200" } | { name: "fds-color-warning-300", value: "#b47324" } | { name: "fds-color-warning-400", value: "#6c3e05" }
+export const FdsSize1: FdsToken = { name: "fds-size-1", value: "8px" }
+export const FdsSize2: FdsToken = { name: "fds-size-2", value: "16px" }
+export const FdsSize3: FdsToken = { name: "fds-size-3", value: "24px" }
+export const FdsSize4: FdsToken = { name: "fds-size-4", value: "32px" }
+export const FdsSize6: FdsToken = { name: "fds-size-6", value: "48px" }
+export const FdsSize8: FdsToken = { name: "fds-size-8", value: "64px" }
+export const FdsSize12: FdsToken = { name: "fds-size-12", value: "96px" }
+export const FdsSize16: FdsToken = { name: "fds-size-16", value: "128px" }
+export const FdsSize24: FdsToken = { name: "fds-size-24", value: "192px" }
+export const FdsSize32: FdsToken = { name: "fds-size-32", value: "256px" }
+export const FdsRadiusCompact: FdsToken = { name: "fds-radius-compact", value: "2px" }
+export const FdsRadiusNormal: FdsToken = { name: "fds-radius-normal", value: "4px" }
+export const FdsRadiusLarge: FdsToken = { name: "fds-radius-large", value: "8px" }
+export const FdsRadiusRounded: FdsToken = { name: "fds-radius-rounded", value: "1000px" }
+export const FdsStyleElevation100: FdsToken = { name: "fds-style-elevation-100", value: "0px 1px 2px 0px rgba(0, 0, 0, 0.24), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)" }
+export const FdsStyleElevation200: FdsToken = { name: "fds-style-elevation-200", value: "0px 6px 6px 0px rgba(0, 0, 0, 0.23), 0px 3px 6px 0px rgba(0, 0, 0, 0.16)" }
+export const FdsStyleElevation300: FdsToken = { name: "fds-style-elevation-300", value: "0px 6px 12px 0px rgba(0, 0, 0, 0.23), 0px 20px 20px 0px rgba(0, 0, 0, 0.19)" }
+export const FdsStyleElevation400: FdsToken = { name: "fds-style-elevation-400", value: "0px 20px 20px 0px rgba(0, 0, 0, 0.22), 0px 50px 100px 0px rgba(0, 0, 0, 0.25)" }
+export const FdsTypographyBodyDefaultFontFamily: FdsToken = { name: "fds-typography-body-default-font-family", value: "'Public Sans'" }
+export const FdsTypographyBodyDefaultFontSize: FdsToken = { name: "fds-typography-body-default-font-size", value: "16px" }
+export const FdsTypographyBodyDefaultLetterSpacing: FdsToken = { name: "fds-typography-body-default-letter-spacing", value: "0px" }
+export const FdsTypographyBodyDefaultLineHeight: FdsToken = { name: "fds-typography-body-default-line-height", value: "150%" }
+export const FdsTypographyBodyDefaultFontWeight: FdsToken = { name: "fds-typography-body-default-font-weight", value: "400" }
+export const FdsTypographyBodyDefaultDisplay: FdsToken = { name: "fds-typography-body-default-display", value: "inline-block" }
+export const FdsTypographyBodyLargeFontFamily: FdsToken = { name: "fds-typography-body-large-font-family", value: "'Public Sans'" }
+export const FdsTypographyBodyLargeFontSize: FdsToken = { name: "fds-typography-body-large-font-size", value: "18px" }
+export const FdsTypographyBodyLargeLetterSpacing: FdsToken = { name: "fds-typography-body-large-letter-spacing", value: "0px" }
+export const FdsTypographyBodyLargeLineHeight: FdsToken = { name: "fds-typography-body-large-line-height", value: "150%" }
+export const FdsTypographyBodyLargeFontWeight: FdsToken = { name: "fds-typography-body-large-font-weight", value: "400" }
+export const FdsTypographyBodyLargeDisplay: FdsToken = { name: "fds-typography-body-large-display", value: "inline-block" }
+export const FdsTypographyBodyMicroFontFamily: FdsToken = { name: "fds-typography-body-micro-font-family", value: "'Public Sans'" }
+export const FdsTypographyBodyMicroFontSize: FdsToken = { name: "fds-typography-body-micro-font-size", value: "12px" }
+export const FdsTypographyBodyMicroLetterSpacing: FdsToken = { name: "fds-typography-body-micro-letter-spacing", value: "0px" }
+export const FdsTypographyBodyMicroLineHeight: FdsToken = { name: "fds-typography-body-micro-line-height", value: "150%" }
+export const FdsTypographyBodyMicroFontWeight: FdsToken = { name: "fds-typography-body-micro-font-weight", value: "400" }
+export const FdsTypographyBodyMicroDisplay: FdsToken = { name: "fds-typography-body-micro-display", value: "inline-block" }
+export const FdsTypographyBodySmallFontFamily: FdsToken = { name: "fds-typography-body-small-font-family", value: "'Public Sans'" }
+export const FdsTypographyBodySmallFontSize: FdsToken = { name: "fds-typography-body-small-font-size", value: "14px" }
+export const FdsTypographyBodySmallLetterSpacing: FdsToken = { name: "fds-typography-body-small-letter-spacing", value: "0px" }
+export const FdsTypographyBodySmallLineHeight: FdsToken = { name: "fds-typography-body-small-line-height", value: "150%" }
+export const FdsTypographyBodySmallFontWeight: FdsToken = { name: "fds-typography-body-small-font-weight", value: "400" }
+export const FdsTypographyBodySmallDisplay: FdsToken = { name: "fds-typography-body-small-display", value: "inline-block" }
+export const FdsTypographyEmphasisDefaultFontFamily: FdsToken = { name: "fds-typography-emphasis-default-font-family", value: "'Public Sans'" }
+export const FdsTypographyEmphasisDefaultFontSize: FdsToken = { name: "fds-typography-emphasis-default-font-size", value: "16px" }
+export const FdsTypographyEmphasisDefaultLetterSpacing: FdsToken = { name: "fds-typography-emphasis-default-letter-spacing", value: "0px" }
+export const FdsTypographyEmphasisDefaultLineHeight: FdsToken = { name: "fds-typography-emphasis-default-line-height", value: "150%" }
+export const FdsTypographyEmphasisDefaultFontWeight: FdsToken = { name: "fds-typography-emphasis-default-font-weight", value: "700" }
+export const FdsTypographyEmphasisDefaultDisplay: FdsToken = { name: "fds-typography-emphasis-default-display", value: "inline-block" }
+export const FdsTypographyEmphasisLargeFontFamily: FdsToken = { name: "fds-typography-emphasis-large-font-family", value: "'Public Sans'" }
+export const FdsTypographyEmphasisLargeFontSize: FdsToken = { name: "fds-typography-emphasis-large-font-size", value: "18px" }
+export const FdsTypographyEmphasisLargeLetterSpacing: FdsToken = { name: "fds-typography-emphasis-large-letter-spacing", value: "0px" }
+export const FdsTypographyEmphasisLargeLineHeight: FdsToken = { name: "fds-typography-emphasis-large-line-height", value: "150%" }
+export const FdsTypographyEmphasisLargeFontWeight: FdsToken = { name: "fds-typography-emphasis-large-font-weight", value: "700" }
+export const FdsTypographyEmphasisLargeDisplay: FdsToken = { name: "fds-typography-emphasis-large-display", value: "inline-block" }
+export const FdsTypographyEmphasisMicroFontFamily: FdsToken = { name: "fds-typography-emphasis-micro-font-family", value: "'Public Sans'" }
+export const FdsTypographyEmphasisMicroFontSize: FdsToken = { name: "fds-typography-emphasis-micro-font-size", value: "12px" }
+export const FdsTypographyEmphasisMicroLetterSpacing: FdsToken = { name: "fds-typography-emphasis-micro-letter-spacing", value: "0px" }
+export const FdsTypographyEmphasisMicroLineHeight: FdsToken = { name: "fds-typography-emphasis-micro-line-height", value: "150%" }
+export const FdsTypographyEmphasisMicroFontWeight: FdsToken = { name: "fds-typography-emphasis-micro-font-weight", value: "700" }
+export const FdsTypographyEmphasisMicroDisplay: FdsToken = { name: "fds-typography-emphasis-micro-display", value: "inline-block" }
+export const FdsTypographyEmphasisSmallFontFamily: FdsToken = { name: "fds-typography-emphasis-small-font-family", value: "'Public Sans'" }
+export const FdsTypographyEmphasisSmallFontSize: FdsToken = { name: "fds-typography-emphasis-small-font-size", value: "14px" }
+export const FdsTypographyEmphasisSmallLetterSpacing: FdsToken = { name: "fds-typography-emphasis-small-letter-spacing", value: "0px" }
+export const FdsTypographyEmphasisSmallLineHeight: FdsToken = { name: "fds-typography-emphasis-small-line-height", value: "150%" }
+export const FdsTypographyEmphasisSmallFontWeight: FdsToken = { name: "fds-typography-emphasis-small-font-weight", value: "700" }
+export const FdsTypographyEmphasisSmallDisplay: FdsToken = { name: "fds-typography-emphasis-small-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading3FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-3-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading3FontSize: FdsToken = { name: "fds-typography-heading-large-heading-3-font-size", value: "40px" }
+export const FdsTypographyHeadingLargeHeading3LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-3-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading3LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-3-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading3FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-3-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading3Display: FdsToken = { name: "fds-typography-heading-large-heading-3-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading4FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-4-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading4FontSize: FdsToken = { name: "fds-typography-heading-large-heading-4-font-size", value: "32px" }
+export const FdsTypographyHeadingLargeHeading4LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-4-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading4LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-4-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading4FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-4-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading4Display: FdsToken = { name: "fds-typography-heading-large-heading-4-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading5FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-5-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading5FontSize: FdsToken = { name: "fds-typography-heading-large-heading-5-font-size", value: "28px" }
+export const FdsTypographyHeadingLargeHeading5LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-5-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading5LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-5-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading5FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-5-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading5Display: FdsToken = { name: "fds-typography-heading-large-heading-5-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading6FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-6-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading6FontSize: FdsToken = { name: "fds-typography-heading-large-heading-6-font-size", value: "20px" }
+export const FdsTypographyHeadingLargeHeading6LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-6-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading6LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-6-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading6FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-6-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading6Display: FdsToken = { name: "fds-typography-heading-large-heading-6-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading1FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-1-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading1FontSize: FdsToken = { name: "fds-typography-heading-large-heading-1-font-size", value: "64px" }
+export const FdsTypographyHeadingLargeHeading1LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-1-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading1LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-1-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading1FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-1-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading1Display: FdsToken = { name: "fds-typography-heading-large-heading-1-display", value: "inline-block" }
+export const FdsTypographyHeadingLargeHeading2FontFamily: FdsToken = { name: "fds-typography-heading-large-heading-2-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingLargeHeading2FontSize: FdsToken = { name: "fds-typography-heading-large-heading-2-font-size", value: "48px" }
+export const FdsTypographyHeadingLargeHeading2LetterSpacing: FdsToken = { name: "fds-typography-heading-large-heading-2-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingLargeHeading2LineHeight: FdsToken = { name: "fds-typography-heading-large-heading-2-line-height", value: "110%" }
+export const FdsTypographyHeadingLargeHeading2FontWeight: FdsToken = { name: "fds-typography-heading-large-heading-2-font-weight", value: "700" }
+export const FdsTypographyHeadingLargeHeading2Display: FdsToken = { name: "fds-typography-heading-large-heading-2-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading1FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-1-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading1FontSize: FdsToken = { name: "fds-typography-heading-small-heading-1-font-size", value: "42px" }
+export const FdsTypographyHeadingSmallHeading1LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-1-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading1LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-1-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading1FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-1-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading1Display: FdsToken = { name: "fds-typography-heading-small-heading-1-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading2FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-2-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading2FontSize: FdsToken = { name: "fds-typography-heading-small-heading-2-font-size", value: "32px" }
+export const FdsTypographyHeadingSmallHeading2LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-2-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading2LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-2-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading2FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-2-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading2Display: FdsToken = { name: "fds-typography-heading-small-heading-2-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading3FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-3-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading3FontSize: FdsToken = { name: "fds-typography-heading-small-heading-3-font-size", value: "28px" }
+export const FdsTypographyHeadingSmallHeading3LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-3-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading3LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-3-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading3FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-3-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading3Display: FdsToken = { name: "fds-typography-heading-small-heading-3-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading4FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-4-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading4FontSize: FdsToken = { name: "fds-typography-heading-small-heading-4-font-size", value: "24px" }
+export const FdsTypographyHeadingSmallHeading4LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-4-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading4LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-4-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading4FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-4-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading4Display: FdsToken = { name: "fds-typography-heading-small-heading-4-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading5FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-5-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading5FontSize: FdsToken = { name: "fds-typography-heading-small-heading-5-font-size", value: "18px" }
+export const FdsTypographyHeadingSmallHeading5LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-5-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading5LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-5-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading5FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-5-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading5Display: FdsToken = { name: "fds-typography-heading-small-heading-5-display", value: "inline-block" }
+export const FdsTypographyHeadingSmallHeading6FontFamily: FdsToken = { name: "fds-typography-heading-small-heading-6-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyHeadingSmallHeading6FontSize: FdsToken = { name: "fds-typography-heading-small-heading-6-font-size", value: "16px" }
+export const FdsTypographyHeadingSmallHeading6LetterSpacing: FdsToken = { name: "fds-typography-heading-small-heading-6-letter-spacing", value: "0px" }
+export const FdsTypographyHeadingSmallHeading6LineHeight: FdsToken = { name: "fds-typography-heading-small-heading-6-line-height", value: "110%" }
+export const FdsTypographyHeadingSmallHeading6FontWeight: FdsToken = { name: "fds-typography-heading-small-heading-6-font-weight", value: "700" }
+export const FdsTypographyHeadingSmallHeading6Display: FdsToken = { name: "fds-typography-heading-small-heading-6-display", value: "inline-block" }
+export const FdsTypographyLinkLargeFontFamily: FdsToken = { name: "fds-typography-link-large-font-family", value: "'Public Sans'" }
+export const FdsTypographyLinkLargeFontSize: FdsToken = { name: "fds-typography-link-large-font-size", value: "18px" }
+export const FdsTypographyLinkLargeLetterSpacing: FdsToken = { name: "fds-typography-link-large-letter-spacing", value: "0px" }
+export const FdsTypographyLinkLargeLineHeight: FdsToken = { name: "fds-typography-link-large-line-height", value: "150%" }
+export const FdsTypographyLinkLargeFontWeight: FdsToken = { name: "fds-typography-link-large-font-weight", value: "400" }
+export const FdsTypographyLinkLargeTextDecoration: FdsToken = { name: "fds-typography-link-large-text-decoration", value: "underline" }
+export const FdsTypographyLinkLargeDisplay: FdsToken = { name: "fds-typography-link-large-display", value: "inline-block" }
+export const FdsTypographyLinkMicroFontFamily: FdsToken = { name: "fds-typography-link-micro-font-family", value: "'Public Sans'" }
+export const FdsTypographyLinkMicroFontSize: FdsToken = { name: "fds-typography-link-micro-font-size", value: "12px" }
+export const FdsTypographyLinkMicroLetterSpacing: FdsToken = { name: "fds-typography-link-micro-letter-spacing", value: "0px" }
+export const FdsTypographyLinkMicroLineHeight: FdsToken = { name: "fds-typography-link-micro-line-height", value: "150%" }
+export const FdsTypographyLinkMicroFontWeight: FdsToken = { name: "fds-typography-link-micro-font-weight", value: "400" }
+export const FdsTypographyLinkMicroTextDecoration: FdsToken = { name: "fds-typography-link-micro-text-decoration", value: "underline" }
+export const FdsTypographyLinkMicroDisplay: FdsToken = { name: "fds-typography-link-micro-display", value: "inline-block" }
+export const FdsTypographyLinkSmallFontFamily: FdsToken = { name: "fds-typography-link-small-font-family", value: "'Public Sans'" }
+export const FdsTypographyLinkSmallFontSize: FdsToken = { name: "fds-typography-link-small-font-size", value: "14px" }
+export const FdsTypographyLinkSmallLetterSpacing: FdsToken = { name: "fds-typography-link-small-letter-spacing", value: "0px" }
+export const FdsTypographyLinkSmallLineHeight: FdsToken = { name: "fds-typography-link-small-line-height", value: "150%" }
+export const FdsTypographyLinkSmallFontWeight: FdsToken = { name: "fds-typography-link-small-font-weight", value: "400" }
+export const FdsTypographyLinkSmallTextDecoration: FdsToken = { name: "fds-typography-link-small-text-decoration", value: "underline" }
+export const FdsTypographyLinkSmallDisplay: FdsToken = { name: "fds-typography-link-small-display", value: "inline-block" }
+export const FdsTypographyLinkDefaultFontFamily: FdsToken = { name: "fds-typography-link-default-font-family", value: "'Public Sans'" }
+export const FdsTypographyLinkDefaultFontSize: FdsToken = { name: "fds-typography-link-default-font-size", value: "16px" }
+export const FdsTypographyLinkDefaultLetterSpacing: FdsToken = { name: "fds-typography-link-default-letter-spacing", value: "0px" }
+export const FdsTypographyLinkDefaultLineHeight: FdsToken = { name: "fds-typography-link-default-line-height", value: "150%" }
+export const FdsTypographyLinkDefaultFontWeight: FdsToken = { name: "fds-typography-link-default-font-weight", value: "400" }
+export const FdsTypographyLinkDefaultTextDecoration: FdsToken = { name: "fds-typography-link-default-text-decoration", value: "underline" }
+export const FdsTypographyLinkDefaultDisplay: FdsToken = { name: "fds-typography-link-default-display", value: "inline-block" }
+export const FdsTypographyUiHelperFontFamily: FdsToken = { name: "fds-typography-ui-helper-font-family", value: "'Public Sans', 'PublicSans-Regular'" }
+export const FdsTypographyUiHelperFontSize: FdsToken = { name: "fds-typography-ui-helper-font-size", value: "15px" }
+export const FdsTypographyUiHelperLetterSpacing: FdsToken = { name: "fds-typography-ui-helper-letter-spacing", value: "0px" }
+export const FdsTypographyUiHelperLineHeight: FdsToken = { name: "fds-typography-ui-helper-line-height", value: "100%" }
+export const FdsTypographyUiHelperFontWeight: FdsToken = { name: "fds-typography-ui-helper-font-weight", value: "400" }
+export const FdsTypographyUiHelperDisplay: FdsToken = { name: "fds-typography-ui-helper-display", value: "inline-block" }
+export const FdsTypographyUiIdFontFamily: FdsToken = { name: "fds-typography-ui-id-font-family", value: "'Roboto Mono'" }
+export const FdsTypographyUiIdFontSize: FdsToken = { name: "fds-typography-ui-id-font-size", value: "13px" }
+export const FdsTypographyUiIdLetterSpacing: FdsToken = { name: "fds-typography-ui-id-letter-spacing", value: "0px" }
+export const FdsTypographyUiIdLineHeight: FdsToken = { name: "fds-typography-ui-id-line-height", value: "100%" }
+export const FdsTypographyUiIdFontWeight: FdsToken = { name: "fds-typography-ui-id-font-weight", value: "700" }
+export const FdsTypographyUiIdDisplay: FdsToken = { name: "fds-typography-ui-id-display", value: "inline-block" }
+export const FdsTypographyUiLabelFontFamily: FdsToken = { name: "fds-typography-ui-label-font-family", value: "'Public Sans', 'PublicSans-Medium'" }
+export const FdsTypographyUiLabelFontSize: FdsToken = { name: "fds-typography-ui-label-font-size", value: "16px" }
+export const FdsTypographyUiLabelLetterSpacing: FdsToken = { name: "fds-typography-ui-label-letter-spacing", value: "0px" }
+export const FdsTypographyUiLabelLineHeight: FdsToken = { name: "fds-typography-ui-label-line-height", value: "22px" }
+export const FdsTypographyUiLabelFontWeight: FdsToken = { name: "fds-typography-ui-label-font-weight", value: "500" }
+export const FdsTypographyUiLabelDisplay: FdsToken = { name: "fds-typography-ui-label-display", value: "inline-block" }
+export const FdsTypographyUiPlaceholderFontFamily: FdsToken = { name: "fds-typography-ui-placeholder-font-family", value: "'Public Sans', 'PublicSans-Medium'" }
+export const FdsTypographyUiPlaceholderFontSize: FdsToken = { name: "fds-typography-ui-placeholder-font-size", value: "16px" }
+export const FdsTypographyUiPlaceholderLetterSpacing: FdsToken = { name: "fds-typography-ui-placeholder-letter-spacing", value: "0px" }
+export const FdsTypographyUiPlaceholderLineHeight: FdsToken = { name: "fds-typography-ui-placeholder-line-height", value: "100%" }
+export const FdsTypographyUiPlaceholderFontWeight: FdsToken = { name: "fds-typography-ui-placeholder-font-weight", value: "500" }
+export const FdsTypographyUiPlaceholderDisplay: FdsToken = { name: "fds-typography-ui-placeholder-display", value: "inline-block" }
+export const FdsTypographyUiTagFontFamily: FdsToken = { name: "fds-typography-ui-tag-font-family", value: "'Public Sans', 'PublicSans-Bold'" }
+export const FdsTypographyUiTagFontSize: FdsToken = { name: "fds-typography-ui-tag-font-size", value: "16px" }
+export const FdsTypographyUiTagLetterSpacing: FdsToken = { name: "fds-typography-ui-tag-letter-spacing", value: "0px" }
+export const FdsTypographyUiTagLineHeight: FdsToken = { name: "fds-typography-ui-tag-line-height", value: "100%" }
+export const FdsTypographyUiTagFontWeight: FdsToken = { name: "fds-typography-ui-tag-font-weight", value: "700" }
+export const FdsTypographyUiTagDisplay: FdsToken = { name: "fds-typography-ui-tag-display", value: "inline-block" }
+export const FdsColorBrandBlack: FdsColorToken = { name: "fds-color-brand-black", value: "#000000" }
+export const FdsColorBrandWhite: FdsColorToken = { name: "fds-color-brand-white", value: "#ffffff" }
+export const FdsColorDanger100: FdsColorToken = { name: "fds-color-danger-100", value: "#ff9b87" }
+export const FdsColorDanger200: FdsColorToken = { name: "fds-color-danger-200", value: "#e55636" }
+export const FdsColorDanger300: FdsColorToken = { name: "fds-color-danger-300", value: "#b40000" }
+export const FdsColorDanger400: FdsColorToken = { name: "fds-color-danger-400", value: "#720000" }
+export const FdsColorInteractive100: FdsColorToken = { name: "fds-color-interactive-100", value: "#90cefe" }
+export const FdsColorInteractive200: FdsColorToken = { name: "fds-color-interactive-200", value: "#1777f8" }
+export const FdsColorInteractive300: FdsColorToken = { name: "fds-color-interactive-300", value: "#0034ac" }
+export const FdsColorInteractive400: FdsColorToken = { name: "fds-color-interactive-400", value: "#001c5b" }
+export const FdsColorNeutral100: FdsColorToken = { name: "fds-color-neutral-100", value: "#cdcdd7" }
+export const FdsColorNeutral200: FdsColorToken = { name: "fds-color-neutral-200", value: "#9696aa" }
+export const FdsColorNeutral300: FdsColorToken = { name: "fds-color-neutral-300", value: "#505064" }
+export const FdsColorNeutral400: FdsColorToken = { name: "fds-color-neutral-400", value: "#2c2c44" }
+export const FdsColorSuccess100: FdsColorToken = { name: "fds-color-success-100", value: "#82e8c3" }
+export const FdsColorSuccess200: FdsColorToken = { name: "fds-color-success-200", value: "#25a794" }
+export const FdsColorSuccess300: FdsColorToken = { name: "fds-color-success-300", value: "#005f61" }
+export const FdsColorSuccess400: FdsColorToken = { name: "fds-color-success-400", value: "#004042" }
+export const FdsColorText1: FdsColorToken = { name: "fds-color-text-1", value: "#ffffff" }
+export const FdsColorText300: FdsColorToken = { name: "fds-color-text-300", value: "#9696aa" }
+export const FdsColorText600: FdsColorToken = { name: "fds-color-text-600", value: "#505064" }
+export const FdsColorText1000: FdsColorToken = { name: "fds-color-text-1000", value: "#000000" }
+export const FdsColorWarning100: FdsColorToken = { name: "fds-color-warning-100", value: "#ffe37f" }
+export const FdsColorWarning200: FdsColorToken = { name: "fds-color-warning-200", value: "#eec200" }
+export const FdsColorWarning300: FdsColorToken = { name: "fds-color-warning-300", value: "#b47324" }
+export const FdsColorWarning400: FdsColorToken = { name: "fds-color-warning-400", value: "#6c3e05" }

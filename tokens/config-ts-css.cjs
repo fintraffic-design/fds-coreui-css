@@ -1,12 +1,45 @@
+
+const fs = require('fs');
+
+function paramCase(name) {
+  return name.replace(/([A-Z]|[0-9]+)/g, s => '-' + s.toLowerCase()).replace(/^-/, '')
+}
+
+function fdsType(token) {
+  if ( token.name.startsWith("Color") ) {
+    return "FdsColorToken";
+  } else {
+    return "FdsToken";
+  }
+}
+
+function fdsTokenString(token) {
+  return `{ name: "fds-${paramCase(token.name)}", value: "${token.value}" }`;
+}
+
 module.exports = {
   source: ['tokens/**/*.json'],
   format: {
-    ts: ({ dictionary }) => {
+    test: ({ dictionary }) => {
+
+      const allType = dictionary
+        .allTokens
+        .map(token => fdsTokenString(token))
+        .join(" | ");
+
+      const colorType = dictionary.allTokens
+        .filter(token => fdsType(token) === "FdsColorToken")
+        .map(token => fdsTokenString(token))
+        .join(" | ");
+
       const tokens = dictionary
         .allTokens
-        .map(token => `  "${token.name}": "${token.value}"`)
-        .join(',\n')
-      return `export const tokens = {\n${tokens}\n}`;
+        .map(token => `export const Fds${token.name}: ${fdsType(token)} = ${fdsTokenString(token)}`)
+      return [
+        `export type FdsToken = ${allType}`,
+        `export type FdsColorToken = ${colorType}`,
+        tokens.join("\n")
+      ].join("\n")
     }
   },
 
@@ -18,18 +51,19 @@ module.exports = {
         {
           destination: 'tokens.css',
           format: 'css/variables'
-        }
-      ]
+        },
+      ],
     },
-    tsCss: {
-      transformGroup: 'css',
+    ts: {
+      transformGroup: 'js',
       buildPath: 'dist/',
       files: [
         {
           destination: 'tokens.ts',
-          format: 'ts'
-        }
+          format: 'test'
+        },
       ]
+
     }
   }
 }
