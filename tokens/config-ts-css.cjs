@@ -1,10 +1,10 @@
 module.exports = {
   source: ['tokens/**/*.json'],
   format: {
-    tsCss: ({ dictionary }) => {
+    ts: ({ dictionary }) => {
       const tokens = dictionary
         .allTokens
-        .map(token => `  "${token.name}": "var(--${token.name}, ${token.value})"`)
+        .map(token => `  "${token.name}": "${token.value}"`)
         .join(',\n')
       return `export const tokens = {\n${tokens}\n}`;
     }
@@ -27,7 +27,7 @@ module.exports = {
       files: [
         {
           destination: 'tokens.ts',
-          format: 'tsCss'
+          format: 'ts'
         }
       ]
     }
