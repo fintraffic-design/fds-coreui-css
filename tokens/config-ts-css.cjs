@@ -28,13 +28,21 @@ module.exports = {
         .map(token => fdsTokenString(token))
         .join(" | ");
 
-      return `export type FdsToken = ${allType}\nexport type FdsColorToken = ${colorType}`;
-    },
-    'fds/javascript': ({ dictionary }) => {
       const tokens = dictionary
         .allTokens
+        .map(token => `export const Fds${token.name}: ${fdsType(token)}`);
+
+      return [
+        `export type FdsToken = ${allType}`,
+        `export type FdsColorToken = ${colorType}`,
+        tokens.join("\n")
+      ].join("\n")
+    },
+    'fds/javascript': ({ dictionary }) => {
+      return dictionary
+        .allTokens
         .map(token => `export const Fds${token.name} = ${fdsTokenString(token)}`)
-      return tokens.join("\n");
+        .join("\n")
     }
   },
 
