@@ -33,7 +33,7 @@ module.exports = {
     'fds/javascript': ({ dictionary }) => {
       const tokens = dictionary
         .allTokens
-        .map(token => `export const Fds${token.name}: ${fdsType(token)} = ${fdsTokenString(token)}`)
+        .map(token => `export const Fds${token.name} = ${fdsTokenString(token)}`)
       return tokens.join("\n");
     }
   },
