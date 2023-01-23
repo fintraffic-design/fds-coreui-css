@@ -1,6 +1,3 @@
-
-const fs = require('fs');
-
 function paramCase(name) {
   return name.replace(/([A-Z]|[0-9]+)/g, s => '-' + s.toLowerCase()).replace(/^-/, '')
 }
@@ -20,8 +17,7 @@ function fdsTokenString(token) {
 module.exports = {
   source: ['tokens/**/*.json'],
   format: {
-    test: ({ dictionary }) => {
-
+    'fds/typings': ({ dictionary }) => {
       const allType = dictionary
         .allTokens
         .map(token => fdsTokenString(token))
@@ -32,14 +28,13 @@ module.exports = {
         .map(token => fdsTokenString(token))
         .join(" | ");
 
+      return `export type FdsToken = ${allType}\nexport type FdsColorToken = ${colorType}`;
+    },
+    'fds/javascript': ({ dictionary }) => {
       const tokens = dictionary
         .allTokens
         .map(token => `export const Fds${token.name}: ${fdsType(token)} = ${fdsTokenString(token)}`)
-      return [
-        `export type FdsToken = ${allType}`,
-        `export type FdsColorToken = ${colorType}`,
-        tokens.join("\n")
-      ].join("\n")
+      return tokens.join("\n");
     }
   },
 
@@ -59,11 +54,14 @@ module.exports = {
       buildPath: 'dist/',
       files: [
         {
-          destination: 'tokens.ts',
-          format: 'test'
+          destination: 'tokens.d.ts',
+          format: 'fds/typings'
+        },
+        {
+          destination: 'tokens.js',
+          format: 'fds/javascript'
         },
       ]
-
     }
   }
 }

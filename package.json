@@ -4,6 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"files": ["dist", "src/scss"],
+	"main": "./dist/tokens.js",
 	"scripts": {
 		"dev": "vite",
 		"build": "style-dictionary build --config tokens/config-scss.cjs && tsc && vite build && style-dictionary build --config tokens/config-ts-css.cjs",
