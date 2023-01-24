@@ -59,7 +59,7 @@ module.exports = {
     },
     ts: {
       transformGroup: 'js',
-      buildPath: 'dist/',
+      buildPath: 'lib/',
       files: [
         {
           destination: 'tokens.d.ts',
