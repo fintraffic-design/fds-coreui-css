@@ -5,6 +5,8 @@ function paramCase(name) {
 function fdsType(token) {
   if ( token.name.startsWith("Color") ) {
     return "FdsColorToken";
+  } else if ( token.name.startsWith("Size") ) {
+    return "FdsSizeToken";
   } else {
     return "FdsToken";
   }
@@ -28,6 +30,11 @@ module.exports = {
         .map(token => fdsTokenString(token))
         .join(" | ");
 
+      const sizeType = dictionary.allTokens
+        .filter(token => fdsType(token) === "FdsSizeToken")
+        .map(token => fdsTokenString(token))
+        .join(" | ");
+
       const tokens = dictionary
         .allTokens
         .map(token => `export const Fds${token.name}: ${fdsType(token)}`);
@@ -35,6 +42,7 @@ module.exports = {
       return [
         `export type FdsToken = ${allType}`,
         `export type FdsColorToken = ${colorType}`,
+        `export type FdsSizeToken = ${sizeType}`,
         tokens.join("\n")
       ].join("\n")
     },
