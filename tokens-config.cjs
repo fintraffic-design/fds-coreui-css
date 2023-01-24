@@ -15,7 +15,7 @@ function fdsTokenString(token) {
 }
 
 module.exports = {
-  source: ['tokens/**/*.json'],
+  source: ['src/tokens/**/*.json'],
   format: {
     'fds/typings': ({ dictionary }) => {
       const allType = dictionary
@@ -47,6 +47,16 @@ module.exports = {
   },
 
   platforms: {
+    scss: {
+      transformGroup: 'scss',
+      buildPath: 'src/scss/',
+      files: [
+        {
+          destination: '_tokens.scss',
+          format: 'scss/variables'
+        }
+      ]
+    },
     css: {
       transformGroup: 'css',
       buildPath: 'dist/',
