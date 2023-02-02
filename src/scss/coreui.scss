@@ -1,29 +1,30 @@
-@import 'mixins/cr-banner';
-@include crBanner('');
+@import "mixins/cr-banner";
+@include crBanner("");
 
 // 1. Settings
 //
 // Global settings and everything for preprocessors such as variables,
 // font and color definitions etc. Doesn't output any CSS.
 
-@import 'tokens';
-@import 'functions';
-@import 'variables';
-@import 'maps';
+@import "tokens";
+@import "functions";
+@import "variables";
+@import "maps";
+@import "fonts";
 
 // 2. Tools
 //
 // Global mixins and functions. Doesn't output any CSS.
 
-@import 'mixins';
-@import 'utilities';
+@import "mixins";
+@import "utilities";
 
 // 3. Generic
 //
 // Resetting and normalizing of browser styles, such as box-sizing.
 
-@import 'root';
-@import 'reboot';
+@import "root";
+@import "reboot";
 
 // 4. Elements
 //
@@ -39,7 +40,6 @@
 
 @import "containers";
 @import "grid";
-
 
 // 6. Components
 //
@@ -67,6 +67,6 @@
 //
 // Helper classes that override anything that comes before them.
 
-@import 'helpers/transitions';
-@import 'helpers/visually-hidden';
-@import 'helpers/spacing.scss';
+@import "helpers/transitions";
+@import "helpers/visually-hidden";
+@import "helpers/spacing.scss";
