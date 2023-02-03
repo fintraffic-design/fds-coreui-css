@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-	"files": ["dist", "lib", "src/scss"],
+	"files": ["dist", "lib", "src/scss", "src/assets"],
 	"main": "./lib/tokens.js",
 	"types": "./lib/tokens.d.ts",
 	"scripts": {
