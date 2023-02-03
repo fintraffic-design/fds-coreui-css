@@ -3,12 +3,15 @@
 
 @font-face {
   font-family: "Public Sans";
-  src: url("../assets/fonts/PublicSans-VariableFont_wght.ttf");
+  // Needed when scss gets compiled into dist and fonts are copied to same directory.
+  src: url("./PublicSans-VariableFont_wght.ttf"),
+       url("../assets/fonts/PublicSans-VariableFont_wght.ttf");
   font-weight: 100 1000;
 }
 
 @font-face {
   font-family: "Public Sans Italic";
-  src: url("../assets/fonts/PublicSans-Italic-VariableFont_wght.ttf");
+  src: url("./PublicSans-Italic-VariableFont_wght.ttf"),
+       url("../assets/fonts/PublicSans-Italic-VariableFont_wght.ttf");
   font-weight: 100 1000;
 }
