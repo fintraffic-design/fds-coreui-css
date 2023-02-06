@@ -10,8 +10,7 @@
 		"sass:min": "sass --no-source-map --style=compressed src/scss/coreui.scss:dist/coreui.min.css",
 		"sass": "sass src/scss/coreui.scss:dist/coreui.css",
 		"tokens": "style-dictionary build --config tokens-config.cjs",
-		"copy-fonts": "cp src/assets/fonts/* dist",
-		"build": "npm run sass && npm run sass:min && npm run tokens && npm run copy-fonts"
+		"build": "npm run sass && npm run sass:min && npm run tokens"
 	},
 	"devDependencies": {
 		"cz-conventional-changelog": "^3.3.0",
