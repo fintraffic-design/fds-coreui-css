@@ -1,0 +1,17 @@
+// From: https://fonts.google.com/specimen/Public+Sans
+// Open Font License: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+@font-face {
+  font-family: "Public Sans";
+  // The first URL is for when this gets compiled into css and moved to the dist-folder
+  src: url("../src/assets/fonts/PublicSans-VariableFont_wght.ttf"),
+       url("../assets/fonts/PublicSans-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+}
+
+@font-face {
+  font-family: "Public Sans Italic";
+  src: url("../src/assets/fonts/PublicSans-Italic-VariableFont_wght.ttf"),
+       url("../assets/fonts/PublicSans-Italic-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+}

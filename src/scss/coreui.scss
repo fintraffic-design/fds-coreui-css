@@ -1,5 +1,5 @@
 @import 'mixins/cr-banner';
-@include crBanner('');
+@include crBanner("");
 
 // 1. Settings
 //
@@ -10,6 +10,7 @@
 @import 'functions';
 @import 'variables';
 @import 'maps';
+@import 'fonts';
 
 // 2. Tools
 //
@@ -29,39 +30,38 @@
 //
 // Styling for HTML elements, such as h1, a, p and so on.
 
-@import "type";
-@import "images";
+@import 'type';
+@import 'images';
 
 // 5. Objects
 //
 // Common, non-cosmetic structural design patterns such as containers,
 // rows, grids, columns etc.
 
-@import "containers";
-@import "grid";
-
+@import 'containers';
+@import 'grid';
 
 // 6. Components
 //
 // Simple components (atoms), such as buttons, cards, alerts, inputs etc.
 
-@import "components/accordion";
-@import "components/action-sheet";
-@import "components/alert";
-@import "components/avatar";
-@import "components/button";
-@import "components/button-group";
-@import "components/card";
-@import "components/dialog";
-@import "components/drawer";
-@import "components/dropdown";
-@import "components/forms";
-@import "components/menu";
-@import "components/navbar";
-@import "components/popover";
-@import "components/table";
-@import "components/tag";
-@import "components/tooltip";
+@import 'components/accordion';
+@import 'components/action-sheet';
+@import 'components/alert';
+@import 'components/avatar';
+@import 'components/button';
+@import 'components/button-group';
+@import 'components/card';
+@import 'components/dialog';
+@import 'components/drawer';
+@import 'components/dropdown';
+@import 'components/forms';
+@import 'components/menu';
+@import 'components/navbar';
+@import 'components/popover';
+@import 'components/table';
+@import 'components/tag';
+@import 'components/tooltip';
 
 // 7. Helpers
 //

@@ -4,6 +4,16 @@
     * Copyright 2022 Traffic Management Company Fintraffic Ltd / Liikenteenohjausyhtiö Fintraffic Oy
     * UNLICENSED
     */
+@font-face {
+  font-family: "Public Sans";
+  src: url("../src/assets/fonts/PublicSans-VariableFont_wght.ttf"), url("../assets/fonts/PublicSans-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+}
+@font-face {
+  font-family: "Public Sans Italic";
+  src: url("../src/assets/fonts/PublicSans-Italic-VariableFont_wght.ttf"), url("../assets/fonts/PublicSans-Italic-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+}
 *,
 *::before,
 *::after {
