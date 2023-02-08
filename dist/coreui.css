@@ -31,13 +31,13 @@
 
 body {
   margin: 0;
-  font-family: var(--fds-body-default-font-family);
-  font-size: var(--fds-body-default-font-size);
-  font-weight: var(--fds-body-default-font-weight);
-  line-height: var(--fds-body-default-line-height);
-  color: var(--fds-body-default-color);
-  text-align: var(--fds-body-default-text-align);
-  background-color: var(--fds-body-default-bg);
+  font-family: var(--fds-typografy-body-default-font-family);
+  font-size: var(--fds-typografy-body-default-font-size);
+  font-weight: var(--fds-typografy-body-default-font-weight);
+  line-height: var(--fds-typografy-body-default-line-height);
+  color: var(--fds-typografy-body-default-color);
+  text-align: var(--fds-typografy-body-default-text-align);
+  background-color: var(--fds-typografy-body-default-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
