@@ -31,13 +31,13 @@
 
 body {
   margin: 0;
-  font-family: var(--fds-body-font-family);
-  font-size: var(--fds-body-font-size);
-  font-weight: var(--fds-body-font-weight);
-  line-height: var(--fds-body-line-height);
-  color: var(--fds-body-color);
-  text-align: var(--fds-body-text-align);
-  background-color: var(--fds-body-bg);
+  font-family: var(--fds-body-default-font-family);
+  font-size: var(--fds-body-default-font-size);
+  font-weight: var(--fds-body-default-font-weight);
+  line-height: var(--fds-body-default-line-height);
+  color: var(--fds-body-default-color);
+  text-align: var(--fds-body-default-text-align);
+  background-color: var(--fds-body-default-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

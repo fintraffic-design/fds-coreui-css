@@ -37,13 +37,13 @@
 // scss-docs-start reboot-body-rules
 body {
 	margin: 0; // 1
-	font-family: var(--#{$prefix}body-font-family);
-	font-size: var(--#{$prefix}body-font-size);
-	font-weight: var(--#{$prefix}body-font-weight);
-	line-height: var(--#{$prefix}body-line-height);
-	color: var(--#{$prefix}body-color);
-	text-align: var(--#{$prefix}body-text-align);
-	background-color: var(--#{$prefix}body-bg); // 2
+	font-family: var(--#{$prefix}body-default-font-family);
+	font-size: var(--#{$prefix}body-default-font-size);
+	font-weight: var(--#{$prefix}body-default-font-weight);
+	line-height: var(--#{$prefix}body-default-line-height);
+	color: var(--#{$prefix}body-default-color);
+	text-align: var(--#{$prefix}body-default-text-align);
+	background-color: var(--#{$prefix}body-default-bg); // 2
 	-webkit-text-size-adjust: 100%; // 3
 	-webkit-tap-highlight-color: rgba($black, 0); // 4
 }

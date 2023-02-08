@@ -51,6 +51,14 @@ module.exports = {
         .allTokens
         .map(token => `export const Fds${token.name} = ${fdsTokenString(token)}`)
         .join("\n")
+    },
+    'fds/css-variables': ({ dictionary }) => {
+      const variables = dictionary
+        .allTokens
+        .map(token => `  --fds-${token.name}: ${token.value}`)
+        .join(";\n")
+
+      return `:root {\n${variables}\n}`
     }
   },
 
@@ -71,7 +79,7 @@ module.exports = {
       files: [
         {
           destination: 'tokens.css',
-          format: 'css/variables'
+          format: 'fds/css-variables'
         },
       ],
     },
