@@ -108,7 +108,10 @@ module.exports = {
 
       return [
         `import { CSSResult } from 'lit'\n`,
-        `${styles.map(style => `export const ${getExportedClassName(style.className)}: CSSResult`).join('\n')}\n`
+        `${styles.flatMap(style => [
+          `// .${style.className}`,
+          `export const ${getExportedClassName(style.className)}: CSSResult\n`
+        ]).join('\n')}`
       ]
         .join('\n')
     },
