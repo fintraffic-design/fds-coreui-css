@@ -30,6 +30,34 @@ function indent(size = 2) {
   }
 }
 
+function getStylesForPropertyGroup(propertyGroup, classNameSuffix = '') {
+  return Object.entries(propertyGroup).flatMap(([groupName, group]) => (
+    Object.entries(group).map(([styleName, style]) => ({
+      className: Array.from(
+        new Set(
+          [groupName, styleName, classNameSuffix]
+            .join(' ')
+            .split(' ')
+        )
+      )
+        .join('-')
+        .toLowerCase(),
+      properties: Object.entries(style).map(([propertyName, { name }]) => ({ propertyName, token: `Fds${name}` })),
+    }))
+  ))
+}
+
+function getExportedClassName(className, exportedNameSuffix = 'Class') {
+  return `${
+    uncapitalize(
+      className
+        .split('-')
+        .map(capitalize)
+        .join('')
+    )
+  }${exportedNameSuffix}`
+}
+
 module.exports = {
   source: ['src/tokens/**/*.json'],
   format: {
@@ -74,23 +102,19 @@ module.exports = {
 
       return `:root {\n${variables}\n}`
     },
+    'fds/lit-typings': ({ dictionary }) => {
+      const { Typography } = dictionary.properties
+      const styles = getStylesForPropertyGroup(Typography, 'text')
+
+      return [
+        `import { CSSResult } from 'lit'\n`,
+        `${styles.map(style => `export const ${getExportedClassName(style.className)}: CSSResult`).join('\n')}\n`
+      ]
+        .join('\n')
+    },
     'fds/lit': ({ dictionary }) => {
       const { Typography } = dictionary.properties
-
-      const styles = Object.entries(Typography).flatMap(([groupName, group]) => (
-        Object.entries(group).map(([styleName, style]) => ({
-          className: Array.from(
-            new Set(
-              [groupName, styleName, 'text']
-                .join(' ')
-                .split(' ')
-            )
-          )
-            .join('-')
-            .toLowerCase(),
-          properties: Object.entries(style).map(([property, { name }]) => ({ property, token: `Fds${name}` })),
-        }))
-      ))
+      const styles = getStylesForPropertyGroup(Typography, 'text')
 
       return [
         'import {',
@@ -106,18 +130,11 @@ module.exports = {
           .sort((a, b) => a.className.localeCompare(b.className))
           .map(style => (
             [
-              `export const ${
-                uncapitalize(
-                  style.className
-                    .split('-')
-                    .map(capitalize)
-                    .join('')
-                )
-              }Class = css\``,
+              `export const ${getExportedClassName(style.className)} = css\``,
               `  .${style.className} {`,
               style.properties
-                .sort((a, b) => a.property.localeCompare(b.property))
-                .map(({ property, token }) => `${property}: \${tokenVar(${token})};`)
+                .sort((a, b) => a.propertyName.localeCompare(b.propertyName))
+                .map(({ propertyName, token }) => `${propertyName}: \${tokenVar(${token})};`)
                 .map(indent(4))
                 .join('\n'),
               '  }\n`\n'
@@ -161,6 +178,10 @@ module.exports = {
         {
           destination: 'tokens.js',
           format: 'fds/javascript'
+        },
+        {
+          destination: 'lit-styles.d.ts',
+          format: 'fds/lit-typings'
         },
         {
           destination: 'lit-styles.js',

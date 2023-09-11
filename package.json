@@ -8,8 +8,8 @@
 		"lib",
 		"src"
 	],
-	"main": "./lib/tokens.js",
-	"types": "./lib/tokens.d.ts",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"scripts": {
 		"sass:min": "sass --no-source-map --style=compressed src/scss/coreui.scss:dist/coreui.min.css",
 		"sass": "sass src/scss/coreui.scss:dist/coreui.css",
