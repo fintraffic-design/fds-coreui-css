@@ -102,7 +102,7 @@ module.exports = {
 
       return `:root {\n${variables}\n}`
     },
-    'fds/lit-typings': ({ dictionary }) => {
+    'fds/style-template-typings': ({ dictionary }) => {
       const { Typography } = dictionary.properties
       const styles = getStylesForPropertyGroup(Typography, 'text')
 
@@ -115,7 +115,7 @@ module.exports = {
       ]
         .join('\n')
     },
-    'fds/lit': ({ dictionary }) => {
+    'fds/style-templates': ({ dictionary }) => {
       const { Typography } = dictionary.properties
       const styles = getStylesForPropertyGroup(Typography, 'text')
 
@@ -144,6 +144,28 @@ module.exports = {
             ]
               .join('\n')
         )),
+      ]
+        .join('\n')
+    },
+    'fds/style-property-typings': ({ dictionary }) => {
+      const { allTokens } = dictionary
+
+      return [
+        `import { CSSResult } from 'lit'\n`,
+        'export module FdsProperty {',
+        ...allTokens.map(({ name }) => `  export const ${name}: CSSResult`),
+        '}\n'
+      ]
+        .join('\n')
+    },
+    'fds/style-properties': ({ dictionary }) => {
+      const { allTokens } = dictionary
+
+      return [
+        `import { unsafeCSS } from 'lit'\n`,
+        'export const FdsProperty = {',
+        allTokens.map(({ name, value }) => `  ${name}: unsafeCSS('${value.replaceAll('\'', '\\\'')}')`).join(',\n'),
+        '}\n'
       ]
         .join('\n')
     }
@@ -183,12 +205,20 @@ module.exports = {
           format: 'fds/javascript'
         },
         {
-          destination: 'lit-styles.d.ts',
-          format: 'fds/lit-typings'
+          destination: 'style-templates.d.ts',
+          format: 'fds/style-template-typings'
         },
         {
-          destination: 'lit-styles.js',
-          format: 'fds/lit'
+          destination: 'style-templates.js',
+          format: 'fds/style-templates'
+        },
+        {
+          destination: 'style-properties.d.ts',
+          format: 'fds/style-property-typings'
+        },
+        {
+          destination: 'style-properties.js',
+          format: 'fds/style-properties'
         }
       ]
     }
