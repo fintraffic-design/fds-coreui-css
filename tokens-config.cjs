@@ -164,7 +164,10 @@ module.exports = {
       return [
         `import { unsafeCSS } from 'lit'\n`,
         'export const FdsProperty = {',
-        allTokens.map(({ name, value }) => `  ${name}: unsafeCSS('${value.replaceAll('\'', '\\\'')}')`).join(',\n'),
+        allTokens
+          .map(({ name, value }) => `${name}: unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`)
+          .map(indent())
+          .join(',\n'),
         '}\n'
       ]
         .join('\n')
