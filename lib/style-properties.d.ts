@@ -1,231 +1,229 @@
 import { CSSResult } from 'lit'
 
-export module FdsProperty {
-  export const Size1: CSSResult
-  export const Size2: CSSResult
-  export const Size3: CSSResult
-  export const Size4: CSSResult
-  export const Size6: CSSResult
-  export const Size8: CSSResult
-  export const Size12: CSSResult
-  export const Size16: CSSResult
-  export const Size24: CSSResult
-  export const Size32: CSSResult
-  export const RadiusCompact: CSSResult
-  export const RadiusNormal: CSSResult
-  export const RadiusLarge: CSSResult
-  export const RadiusRounded: CSSResult
-  export const StyleElevation100: CSSResult
-  export const StyleElevation200: CSSResult
-  export const StyleElevation300: CSSResult
-  export const StyleElevation400: CSSResult
-  export const TypographyBodyDefaultFontFamily: CSSResult
-  export const TypographyBodyDefaultFontSize: CSSResult
-  export const TypographyBodyDefaultLetterSpacing: CSSResult
-  export const TypographyBodyDefaultLineHeight: CSSResult
-  export const TypographyBodyDefaultFontWeight: CSSResult
-  export const TypographyBodyDefaultDisplay: CSSResult
-  export const TypographyBodyLargeFontFamily: CSSResult
-  export const TypographyBodyLargeFontSize: CSSResult
-  export const TypographyBodyLargeLetterSpacing: CSSResult
-  export const TypographyBodyLargeLineHeight: CSSResult
-  export const TypographyBodyLargeFontWeight: CSSResult
-  export const TypographyBodyLargeDisplay: CSSResult
-  export const TypographyBodyMicroFontFamily: CSSResult
-  export const TypographyBodyMicroFontSize: CSSResult
-  export const TypographyBodyMicroLetterSpacing: CSSResult
-  export const TypographyBodyMicroLineHeight: CSSResult
-  export const TypographyBodyMicroFontWeight: CSSResult
-  export const TypographyBodyMicroDisplay: CSSResult
-  export const TypographyBodySmallFontFamily: CSSResult
-  export const TypographyBodySmallFontSize: CSSResult
-  export const TypographyBodySmallLetterSpacing: CSSResult
-  export const TypographyBodySmallLineHeight: CSSResult
-  export const TypographyBodySmallFontWeight: CSSResult
-  export const TypographyBodySmallDisplay: CSSResult
-  export const TypographyEmphasisDefaultFontFamily: CSSResult
-  export const TypographyEmphasisDefaultFontSize: CSSResult
-  export const TypographyEmphasisDefaultLetterSpacing: CSSResult
-  export const TypographyEmphasisDefaultLineHeight: CSSResult
-  export const TypographyEmphasisDefaultFontWeight: CSSResult
-  export const TypographyEmphasisDefaultDisplay: CSSResult
-  export const TypographyEmphasisLargeFontFamily: CSSResult
-  export const TypographyEmphasisLargeFontSize: CSSResult
-  export const TypographyEmphasisLargeLetterSpacing: CSSResult
-  export const TypographyEmphasisLargeLineHeight: CSSResult
-  export const TypographyEmphasisLargeFontWeight: CSSResult
-  export const TypographyEmphasisLargeDisplay: CSSResult
-  export const TypographyEmphasisMicroFontFamily: CSSResult
-  export const TypographyEmphasisMicroFontSize: CSSResult
-  export const TypographyEmphasisMicroLetterSpacing: CSSResult
-  export const TypographyEmphasisMicroLineHeight: CSSResult
-  export const TypographyEmphasisMicroFontWeight: CSSResult
-  export const TypographyEmphasisMicroDisplay: CSSResult
-  export const TypographyEmphasisSmallFontFamily: CSSResult
-  export const TypographyEmphasisSmallFontSize: CSSResult
-  export const TypographyEmphasisSmallLetterSpacing: CSSResult
-  export const TypographyEmphasisSmallLineHeight: CSSResult
-  export const TypographyEmphasisSmallFontWeight: CSSResult
-  export const TypographyEmphasisSmallDisplay: CSSResult
-  export const TypographyHeadingLargeHeading3FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading3FontSize: CSSResult
-  export const TypographyHeadingLargeHeading3LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading3LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading3FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading3Display: CSSResult
-  export const TypographyHeadingLargeHeading4FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading4FontSize: CSSResult
-  export const TypographyHeadingLargeHeading4LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading4LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading4FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading4Display: CSSResult
-  export const TypographyHeadingLargeHeading5FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading5FontSize: CSSResult
-  export const TypographyHeadingLargeHeading5LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading5LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading5FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading5Display: CSSResult
-  export const TypographyHeadingLargeHeading6FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading6FontSize: CSSResult
-  export const TypographyHeadingLargeHeading6LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading6LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading6FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading6Display: CSSResult
-  export const TypographyHeadingLargeHeading1FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading1FontSize: CSSResult
-  export const TypographyHeadingLargeHeading1LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading1LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading1FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading1Display: CSSResult
-  export const TypographyHeadingLargeHeading2FontFamily: CSSResult
-  export const TypographyHeadingLargeHeading2FontSize: CSSResult
-  export const TypographyHeadingLargeHeading2LetterSpacing: CSSResult
-  export const TypographyHeadingLargeHeading2LineHeight: CSSResult
-  export const TypographyHeadingLargeHeading2FontWeight: CSSResult
-  export const TypographyHeadingLargeHeading2Display: CSSResult
-  export const TypographyHeadingSmallHeading1FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading1FontSize: CSSResult
-  export const TypographyHeadingSmallHeading1LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading1LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading1FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading1Display: CSSResult
-  export const TypographyHeadingSmallHeading2FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading2FontSize: CSSResult
-  export const TypographyHeadingSmallHeading2LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading2LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading2FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading2Display: CSSResult
-  export const TypographyHeadingSmallHeading3FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading3FontSize: CSSResult
-  export const TypographyHeadingSmallHeading3LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading3LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading3FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading3Display: CSSResult
-  export const TypographyHeadingSmallHeading4FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading4FontSize: CSSResult
-  export const TypographyHeadingSmallHeading4LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading4LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading4FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading4Display: CSSResult
-  export const TypographyHeadingSmallHeading5FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading5FontSize: CSSResult
-  export const TypographyHeadingSmallHeading5LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading5LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading5FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading5Display: CSSResult
-  export const TypographyHeadingSmallHeading6FontFamily: CSSResult
-  export const TypographyHeadingSmallHeading6FontSize: CSSResult
-  export const TypographyHeadingSmallHeading6LetterSpacing: CSSResult
-  export const TypographyHeadingSmallHeading6LineHeight: CSSResult
-  export const TypographyHeadingSmallHeading6FontWeight: CSSResult
-  export const TypographyHeadingSmallHeading6Display: CSSResult
-  export const TypographyLinkLargeFontFamily: CSSResult
-  export const TypographyLinkLargeFontSize: CSSResult
-  export const TypographyLinkLargeLetterSpacing: CSSResult
-  export const TypographyLinkLargeLineHeight: CSSResult
-  export const TypographyLinkLargeFontWeight: CSSResult
-  export const TypographyLinkLargeTextDecoration: CSSResult
-  export const TypographyLinkLargeDisplay: CSSResult
-  export const TypographyLinkMicroFontFamily: CSSResult
-  export const TypographyLinkMicroFontSize: CSSResult
-  export const TypographyLinkMicroLetterSpacing: CSSResult
-  export const TypographyLinkMicroLineHeight: CSSResult
-  export const TypographyLinkMicroFontWeight: CSSResult
-  export const TypographyLinkMicroTextDecoration: CSSResult
-  export const TypographyLinkMicroDisplay: CSSResult
-  export const TypographyLinkSmallFontFamily: CSSResult
-  export const TypographyLinkSmallFontSize: CSSResult
-  export const TypographyLinkSmallLetterSpacing: CSSResult
-  export const TypographyLinkSmallLineHeight: CSSResult
-  export const TypographyLinkSmallFontWeight: CSSResult
-  export const TypographyLinkSmallTextDecoration: CSSResult
-  export const TypographyLinkSmallDisplay: CSSResult
-  export const TypographyLinkDefaultFontFamily: CSSResult
-  export const TypographyLinkDefaultFontSize: CSSResult
-  export const TypographyLinkDefaultLetterSpacing: CSSResult
-  export const TypographyLinkDefaultLineHeight: CSSResult
-  export const TypographyLinkDefaultFontWeight: CSSResult
-  export const TypographyLinkDefaultTextDecoration: CSSResult
-  export const TypographyLinkDefaultDisplay: CSSResult
-  export const TypographyUiHelperFontFamily: CSSResult
-  export const TypographyUiHelperFontSize: CSSResult
-  export const TypographyUiHelperLetterSpacing: CSSResult
-  export const TypographyUiHelperLineHeight: CSSResult
-  export const TypographyUiHelperFontWeight: CSSResult
-  export const TypographyUiHelperDisplay: CSSResult
-  export const TypographyUiIdFontFamily: CSSResult
-  export const TypographyUiIdFontSize: CSSResult
-  export const TypographyUiIdLetterSpacing: CSSResult
-  export const TypographyUiIdLineHeight: CSSResult
-  export const TypographyUiIdFontWeight: CSSResult
-  export const TypographyUiIdDisplay: CSSResult
-  export const TypographyUiLabelFontFamily: CSSResult
-  export const TypographyUiLabelFontSize: CSSResult
-  export const TypographyUiLabelLetterSpacing: CSSResult
-  export const TypographyUiLabelLineHeight: CSSResult
-  export const TypographyUiLabelFontWeight: CSSResult
-  export const TypographyUiLabelDisplay: CSSResult
-  export const TypographyUiPlaceholderFontFamily: CSSResult
-  export const TypographyUiPlaceholderFontSize: CSSResult
-  export const TypographyUiPlaceholderLetterSpacing: CSSResult
-  export const TypographyUiPlaceholderLineHeight: CSSResult
-  export const TypographyUiPlaceholderFontWeight: CSSResult
-  export const TypographyUiPlaceholderDisplay: CSSResult
-  export const TypographyUiTagFontFamily: CSSResult
-  export const TypographyUiTagFontSize: CSSResult
-  export const TypographyUiTagLetterSpacing: CSSResult
-  export const TypographyUiTagLineHeight: CSSResult
-  export const TypographyUiTagFontWeight: CSSResult
-  export const TypographyUiTagDisplay: CSSResult
-  export const ColorBrandBlack: CSSResult
-  export const ColorBrandWhite: CSSResult
-  export const ColorDanger50: CSSResult
-  export const ColorDanger100: CSSResult
-  export const ColorDanger200: CSSResult
-  export const ColorDanger300: CSSResult
-  export const ColorDanger400: CSSResult
-  export const ColorInteractive50: CSSResult
-  export const ColorInteractive100: CSSResult
-  export const ColorInteractive200: CSSResult
-  export const ColorInteractive300: CSSResult
-  export const ColorInteractive400: CSSResult
-  export const ColorNeutral50: CSSResult
-  export const ColorNeutral100: CSSResult
-  export const ColorNeutral200: CSSResult
-  export const ColorNeutral300: CSSResult
-  export const ColorNeutral400: CSSResult
-  export const ColorSuccess50: CSSResult
-  export const ColorSuccess100: CSSResult
-  export const ColorSuccess200: CSSResult
-  export const ColorSuccess300: CSSResult
-  export const ColorSuccess400: CSSResult
-  export const ColorText1: CSSResult
-  export const ColorText300: CSSResult
-  export const ColorText600: CSSResult
-  export const ColorText1000: CSSResult
-  export const ColorWarning50: CSSResult
-  export const ColorWarning100: CSSResult
-  export const ColorWarning200: CSSResult
-  export const ColorWarning300: CSSResult
-  export const ColorWarning400: CSSResult
-}
+export const FdsCssSize1: CSSResult
+export const FdsCssSize2: CSSResult
+export const FdsCssSize3: CSSResult
+export const FdsCssSize4: CSSResult
+export const FdsCssSize6: CSSResult
+export const FdsCssSize8: CSSResult
+export const FdsCssSize12: CSSResult
+export const FdsCssSize16: CSSResult
+export const FdsCssSize24: CSSResult
+export const FdsCssSize32: CSSResult
+export const FdsCssRadiusCompact: CSSResult
+export const FdsCssRadiusNormal: CSSResult
+export const FdsCssRadiusLarge: CSSResult
+export const FdsCssRadiusRounded: CSSResult
+export const FdsCssStyleElevation100: CSSResult
+export const FdsCssStyleElevation200: CSSResult
+export const FdsCssStyleElevation300: CSSResult
+export const FdsCssStyleElevation400: CSSResult
+export const FdsCssTypographyBodyDefaultFontFamily: CSSResult
+export const FdsCssTypographyBodyDefaultFontSize: CSSResult
+export const FdsCssTypographyBodyDefaultLetterSpacing: CSSResult
+export const FdsCssTypographyBodyDefaultLineHeight: CSSResult
+export const FdsCssTypographyBodyDefaultFontWeight: CSSResult
+export const FdsCssTypographyBodyDefaultDisplay: CSSResult
+export const FdsCssTypographyBodyLargeFontFamily: CSSResult
+export const FdsCssTypographyBodyLargeFontSize: CSSResult
+export const FdsCssTypographyBodyLargeLetterSpacing: CSSResult
+export const FdsCssTypographyBodyLargeLineHeight: CSSResult
+export const FdsCssTypographyBodyLargeFontWeight: CSSResult
+export const FdsCssTypographyBodyLargeDisplay: CSSResult
+export const FdsCssTypographyBodyMicroFontFamily: CSSResult
+export const FdsCssTypographyBodyMicroFontSize: CSSResult
+export const FdsCssTypographyBodyMicroLetterSpacing: CSSResult
+export const FdsCssTypographyBodyMicroLineHeight: CSSResult
+export const FdsCssTypographyBodyMicroFontWeight: CSSResult
+export const FdsCssTypographyBodyMicroDisplay: CSSResult
+export const FdsCssTypographyBodySmallFontFamily: CSSResult
+export const FdsCssTypographyBodySmallFontSize: CSSResult
+export const FdsCssTypographyBodySmallLetterSpacing: CSSResult
+export const FdsCssTypographyBodySmallLineHeight: CSSResult
+export const FdsCssTypographyBodySmallFontWeight: CSSResult
+export const FdsCssTypographyBodySmallDisplay: CSSResult
+export const FdsCssTypographyEmphasisDefaultFontFamily: CSSResult
+export const FdsCssTypographyEmphasisDefaultFontSize: CSSResult
+export const FdsCssTypographyEmphasisDefaultLetterSpacing: CSSResult
+export const FdsCssTypographyEmphasisDefaultLineHeight: CSSResult
+export const FdsCssTypographyEmphasisDefaultFontWeight: CSSResult
+export const FdsCssTypographyEmphasisDefaultDisplay: CSSResult
+export const FdsCssTypographyEmphasisLargeFontFamily: CSSResult
+export const FdsCssTypographyEmphasisLargeFontSize: CSSResult
+export const FdsCssTypographyEmphasisLargeLetterSpacing: CSSResult
+export const FdsCssTypographyEmphasisLargeLineHeight: CSSResult
+export const FdsCssTypographyEmphasisLargeFontWeight: CSSResult
+export const FdsCssTypographyEmphasisLargeDisplay: CSSResult
+export const FdsCssTypographyEmphasisMicroFontFamily: CSSResult
+export const FdsCssTypographyEmphasisMicroFontSize: CSSResult
+export const FdsCssTypographyEmphasisMicroLetterSpacing: CSSResult
+export const FdsCssTypographyEmphasisMicroLineHeight: CSSResult
+export const FdsCssTypographyEmphasisMicroFontWeight: CSSResult
+export const FdsCssTypographyEmphasisMicroDisplay: CSSResult
+export const FdsCssTypographyEmphasisSmallFontFamily: CSSResult
+export const FdsCssTypographyEmphasisSmallFontSize: CSSResult
+export const FdsCssTypographyEmphasisSmallLetterSpacing: CSSResult
+export const FdsCssTypographyEmphasisSmallLineHeight: CSSResult
+export const FdsCssTypographyEmphasisSmallFontWeight: CSSResult
+export const FdsCssTypographyEmphasisSmallDisplay: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading3Display: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading4Display: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading5Display: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading6Display: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading1Display: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2FontFamily: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2FontSize: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2LineHeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2FontWeight: CSSResult
+export const FdsCssTypographyHeadingLargeHeading2Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading1Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading2Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading3Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading4Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading5Display: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6FontFamily: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6FontSize: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6LetterSpacing: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6LineHeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6FontWeight: CSSResult
+export const FdsCssTypographyHeadingSmallHeading6Display: CSSResult
+export const FdsCssTypographyLinkLargeFontFamily: CSSResult
+export const FdsCssTypographyLinkLargeFontSize: CSSResult
+export const FdsCssTypographyLinkLargeLetterSpacing: CSSResult
+export const FdsCssTypographyLinkLargeLineHeight: CSSResult
+export const FdsCssTypographyLinkLargeFontWeight: CSSResult
+export const FdsCssTypographyLinkLargeTextDecoration: CSSResult
+export const FdsCssTypographyLinkLargeDisplay: CSSResult
+export const FdsCssTypographyLinkMicroFontFamily: CSSResult
+export const FdsCssTypographyLinkMicroFontSize: CSSResult
+export const FdsCssTypographyLinkMicroLetterSpacing: CSSResult
+export const FdsCssTypographyLinkMicroLineHeight: CSSResult
+export const FdsCssTypographyLinkMicroFontWeight: CSSResult
+export const FdsCssTypographyLinkMicroTextDecoration: CSSResult
+export const FdsCssTypographyLinkMicroDisplay: CSSResult
+export const FdsCssTypographyLinkSmallFontFamily: CSSResult
+export const FdsCssTypographyLinkSmallFontSize: CSSResult
+export const FdsCssTypographyLinkSmallLetterSpacing: CSSResult
+export const FdsCssTypographyLinkSmallLineHeight: CSSResult
+export const FdsCssTypographyLinkSmallFontWeight: CSSResult
+export const FdsCssTypographyLinkSmallTextDecoration: CSSResult
+export const FdsCssTypographyLinkSmallDisplay: CSSResult
+export const FdsCssTypographyLinkDefaultFontFamily: CSSResult
+export const FdsCssTypographyLinkDefaultFontSize: CSSResult
+export const FdsCssTypographyLinkDefaultLetterSpacing: CSSResult
+export const FdsCssTypographyLinkDefaultLineHeight: CSSResult
+export const FdsCssTypographyLinkDefaultFontWeight: CSSResult
+export const FdsCssTypographyLinkDefaultTextDecoration: CSSResult
+export const FdsCssTypographyLinkDefaultDisplay: CSSResult
+export const FdsCssTypographyUiHelperFontFamily: CSSResult
+export const FdsCssTypographyUiHelperFontSize: CSSResult
+export const FdsCssTypographyUiHelperLetterSpacing: CSSResult
+export const FdsCssTypographyUiHelperLineHeight: CSSResult
+export const FdsCssTypographyUiHelperFontWeight: CSSResult
+export const FdsCssTypographyUiHelperDisplay: CSSResult
+export const FdsCssTypographyUiIdFontFamily: CSSResult
+export const FdsCssTypographyUiIdFontSize: CSSResult
+export const FdsCssTypographyUiIdLetterSpacing: CSSResult
+export const FdsCssTypographyUiIdLineHeight: CSSResult
+export const FdsCssTypographyUiIdFontWeight: CSSResult
+export const FdsCssTypographyUiIdDisplay: CSSResult
+export const FdsCssTypographyUiLabelFontFamily: CSSResult
+export const FdsCssTypographyUiLabelFontSize: CSSResult
+export const FdsCssTypographyUiLabelLetterSpacing: CSSResult
+export const FdsCssTypographyUiLabelLineHeight: CSSResult
+export const FdsCssTypographyUiLabelFontWeight: CSSResult
+export const FdsCssTypographyUiLabelDisplay: CSSResult
+export const FdsCssTypographyUiPlaceholderFontFamily: CSSResult
+export const FdsCssTypographyUiPlaceholderFontSize: CSSResult
+export const FdsCssTypographyUiPlaceholderLetterSpacing: CSSResult
+export const FdsCssTypographyUiPlaceholderLineHeight: CSSResult
+export const FdsCssTypographyUiPlaceholderFontWeight: CSSResult
+export const FdsCssTypographyUiPlaceholderDisplay: CSSResult
+export const FdsCssTypographyUiTagFontFamily: CSSResult
+export const FdsCssTypographyUiTagFontSize: CSSResult
+export const FdsCssTypographyUiTagLetterSpacing: CSSResult
+export const FdsCssTypographyUiTagLineHeight: CSSResult
+export const FdsCssTypographyUiTagFontWeight: CSSResult
+export const FdsCssTypographyUiTagDisplay: CSSResult
+export const FdsCssColorBrandBlack: CSSResult
+export const FdsCssColorBrandWhite: CSSResult
+export const FdsCssColorDanger50: CSSResult
+export const FdsCssColorDanger100: CSSResult
+export const FdsCssColorDanger200: CSSResult
+export const FdsCssColorDanger300: CSSResult
+export const FdsCssColorDanger400: CSSResult
+export const FdsCssColorInteractive50: CSSResult
+export const FdsCssColorInteractive100: CSSResult
+export const FdsCssColorInteractive200: CSSResult
+export const FdsCssColorInteractive300: CSSResult
+export const FdsCssColorInteractive400: CSSResult
+export const FdsCssColorNeutral50: CSSResult
+export const FdsCssColorNeutral100: CSSResult
+export const FdsCssColorNeutral200: CSSResult
+export const FdsCssColorNeutral300: CSSResult
+export const FdsCssColorNeutral400: CSSResult
+export const FdsCssColorSuccess50: CSSResult
+export const FdsCssColorSuccess100: CSSResult
+export const FdsCssColorSuccess200: CSSResult
+export const FdsCssColorSuccess300: CSSResult
+export const FdsCssColorSuccess400: CSSResult
+export const FdsCssColorText1: CSSResult
+export const FdsCssColorText300: CSSResult
+export const FdsCssColorText600: CSSResult
+export const FdsCssColorText1000: CSSResult
+export const FdsCssColorWarning50: CSSResult
+export const FdsCssColorWarning100: CSSResult
+export const FdsCssColorWarning200: CSSResult
+export const FdsCssColorWarning300: CSSResult
+export const FdsCssColorWarning400: CSSResult

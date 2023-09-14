@@ -152,9 +152,8 @@ module.exports = {
 
       return [
         `import { CSSResult } from 'lit'\n`,
-        'export module FdsProperty {',
-        ...allTokens.map(({ name }) => `  export const ${name}: CSSResult`),
-        '}\n'
+        ...allTokens.map(({ name }) => `export const FdsCss${name}: CSSResult`),
+        ''
       ]
         .join('\n')
     },
@@ -163,12 +162,8 @@ module.exports = {
 
       return [
         `import { unsafeCSS } from 'lit'\n`,
-        'export const FdsProperty = {',
-        allTokens
-          .map(({ name, value }) => `${name}: unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`)
-          .map(indent())
-          .join(',\n'),
-        '}\n'
+        ...allTokens.map(({ name, value }) => `export const FdsCss${name} = unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`),
+        ''
       ]
         .join('\n')
     }
