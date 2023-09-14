@@ -162,7 +162,7 @@ module.exports = {
 
       return [
         `import { unsafeCSS } from 'lit'\n`,
-        ...allTokens.map(({ name, value }) => `export const FdsCss${name} = unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`),
+        ...allTokens.map(({ name, value }) => `export const FdsCss${name} = /*#__PURE__*/ unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`),
         ''
       ]
         .join('\n')
