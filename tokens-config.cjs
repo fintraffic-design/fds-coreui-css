@@ -42,7 +42,7 @@ function getStylesForPropertyGroup(propertyGroup, classNameSuffix = '') {
       )
         .join('-')
         .toLowerCase(),
-      properties: Object.entries(style).map(([propertyName, { name }]) => ({ propertyName, fdsName: `FdsCss${name}` })),
+      properties: Object.entries(style).map(([propertyName, { name }]) => ({ propertyName, fdsName: `Fds${name}` })),
     }))
   ))
 }
@@ -79,7 +79,7 @@ module.exports = {
 
       const tokens = dictionary
         .allTokens
-        .map(token => `export const Fds${token.name}: ${fdsType(token)}`);
+        .map(token => `export const FdsToken${token.name}: ${fdsType(token)}`);
 
       return [
         `export type FdsToken = ${allType}`,
@@ -91,7 +91,7 @@ module.exports = {
     'fds/javascript': ({ dictionary }) => {
       return dictionary
         .allTokens
-        .map(token => `export const Fds${token.name} = ${fdsTokenString(token)}`)
+        .map(token => `export const FdsToken${token.name} = ${fdsTokenString(token)}`)
         .join("\n")
     },
     'fds/css-variables': ({ dictionary }) => {
@@ -151,7 +151,7 @@ module.exports = {
 
       return [
         `import { CSSResult } from 'lit'\n`,
-        ...allTokens.map(({ name }) => `export const FdsCss${name}: CSSResult`),
+        ...allTokens.map(({ name }) => `export const Fds${name}: CSSResult`),
         ''
       ]
         .join('\n')
@@ -162,7 +162,7 @@ module.exports = {
       return [
         `import { unsafeCSS } from 'lit'\n`,
         ...allTokens.map(({ name, value }) => (
-          `export const FdsCss${name} = /*#__PURE__*/ unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`
+          `export const Fds${name} = /*#__PURE__*/ unsafeCSS("var(--fds-${paramCase(name)}, ${value})")`
         )),
         ''
       ]
