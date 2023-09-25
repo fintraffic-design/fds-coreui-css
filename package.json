@@ -3,14 +3,21 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-	"files": ["dist", "lib", "src"],
-	"main": "./lib/tokens.js",
-	"types": "./lib/tokens.d.ts",
+	"files": [
+		"dist",
+		"lib",
+		"src"
+	],
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"scripts": {
 		"sass:min": "sass --no-source-map --style=compressed src/scss/coreui.scss:dist/coreui.min.css",
 		"sass": "sass src/scss/coreui.scss:dist/coreui.css",
 		"tokens": "style-dictionary build --config tokens-config.cjs",
 		"build": "npm run sass && npm run sass:min && npm run tokens"
+	},
+	"dependencies": {
+		"lit": "^2.8.0"
 	},
 	"devDependencies": {
 		"cz-conventional-changelog": "^3.3.0",
