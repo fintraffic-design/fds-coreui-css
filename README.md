@@ -62,7 +62,7 @@ since it omits the need of parsing the tokens.
 
 Style templates are a set of CSS helper classes that can be included in (Lit) stylesheets.
 The naming of these CSS classes loosely follows the Fintraffic Design System hierarchy,
-e.g. `Typography → Heading large → Heading 1` corresponds to the CSS class `.heading-small-1-text`.
+e.g. `Typography → Heading small → Heading 1` corresponds to the CSS class `.heading-small-1-text`.
 
 ```ts
   import { css, html, LitElement } from 'lit';
