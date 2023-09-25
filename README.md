@@ -1,6 +1,14 @@
 # Core UI CSS
 SCSS/CSS Framework for Fintraffic Design System's Core UI
 
+## CSS
+
+Core UI CSS is available as a CSS file, including a minified version.
+
+```scss
+@import '@fintraffic-design/coreui-css/dist/coreui.min';
+```
+
 ## Tokens
 
 Core UI CSS offers a set of tokens that correspond to sizing, colors, fonts,
@@ -50,14 +58,6 @@ since it omits the need of parsing the tokens.
   }
 ```
 
-## CSS
-
-Core UI CSS is available as a CSS file, including a minified version.
-
-```scss
-@import '@fintraffic-design/coreui-css/dist/coreui.min';
-```
-
 ## Style templates
 
 Style templates are a set of CSS helper classes that can be included in (Lit) stylesheets.
@@ -67,20 +67,20 @@ e.g. `Typography → Heading large → Heading 1` corresponds to the CSS class `
 ```ts
   import { css, html, LitElement } from 'lit';
   import { customElement } from 'lit/decorators.js';
-  import { uiLabelTextClass } from '@fintraffic-design/coreui-css';
+  import { headingSmall1TextClass } from '@fintraffic-design/coreui-css';
 
   @customElement('my-component')
   export default class MyComponent extends LitElement {
     override render(): TemplateResult {
-      return html`<div class="ui-label-text">Text</div>`
+      return html`<div class="heading-small-1-text">Text</div>`
     }
 
     static override styles = [
-      uiLabelTextClass,
+      headingSmall1TextClass,
       css`
         :host {
           /* If you need to override a custom property used by an imported class, you can declare the corresponding property here. */
-          --fds-typography-ui-label-display: flex;
+          --fds-typography-heading-small-heading-1-display: flex;
         }
       `,
     ]
