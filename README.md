@@ -109,3 +109,7 @@ Style properties are CSS property values derived from the tokens. These can be u
     ]
   }
 ```
+
+# Licencing
+Copyright © Fintraffic 2023
+Source code of this program is licensed under the [EUPL v1.2](./LICENCE)
