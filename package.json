@@ -1,9 +1,20 @@
 {
   "name": "@fintraffic/fds-coreui-css",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "SCSS/CSS Framework for Fintraffic Design System's Core UI",
   "author": "Fintraffic",
   "license": "EUPL-1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fintraffic-design/fds-coreui-css.git"
+  },
+  "homepage": "https://design.fintraffic.fi/",
+  "bugs": {
+    "url": "https://github.com/fintraffic-design/fds-coreui-css/issues"
+  },
   "type": "module",
   "files": [
     "dist",
