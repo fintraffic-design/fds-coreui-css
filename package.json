@@ -1,7 +1,7 @@
 {
-  "name": "@fintraffic-design/coreui-css",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@fintraffic/fds-coreui-css",
+  "version": "0.1.0",
+  "description": "SCSS/CSS Framework for Fintraffic Design System's Core UI",
   "author": "Fintraffic",
   "license": "EUPL-1.2",
   "type": "module",
