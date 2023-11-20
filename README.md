@@ -5,8 +5,22 @@ SCSS/CSS Framework for Fintraffic Design System's Core UI
 
 Core UI CSS is available as a CSS file, including a minified version.
 
+### Usage in JS modules (ESM)
+
+If you use a bundler with a CSS loader configured (for example Vite) you can import the Core UI CSS in a JS module like this:
+
+```js
+import '@fintraffic/fds-coreui-css/dist/coreui.min.css'; // Main CSS
+import '@fintraffic/fds-coreui-css/dist/tokens.css'; // CSS variables (tokens)
+import '@fintraffic/fds-coreui-css/dist/fonts-public-sans.css'; // Font
+```
+
+### Usage in Sass/SCSS
+
 ```scss
-@import '@fintraffic-design/coreui-css/dist/coreui.min';
+@import '@fintraffic/fds-coreui-css/dist/coreui.min'; // Main CSS
+@import '@fintraffic/fds-coreui-css/dist/tokens'; // CSS variables (tokens)
+@import '@fintraffic/fds-coreui-css/dist/fonts-public-sans'; // Font
 ```
 
 ## Tokens
@@ -23,7 +37,7 @@ There are also TypeScript declarations for `FdsSizeToken` and `FdsColorToken`, w
 //   --fds-size-3: 24px;
 //   /* ... */
 // }
-@import '@fintraffic-design/coreui-css/dist/tokens';
+@import '@fintraffic/fds-coreui-css/dist/tokens';
 
 // ...
 
@@ -33,7 +47,7 @@ There are also TypeScript declarations for `FdsSizeToken` and `FdsColorToken`, w
 ```
 
 ```ts
-import { FdsTokenSize1 } from '@fintraffic-design/coreui-css'; // { name: "fds-size-1", value: "8px" }
+import { FdsTokenSize1 } from '@fintraffic/fds-coreui-css'; // { name: "fds-size-1", value: "8px" }
 ```
 
 ### Using tokens in Web Components
@@ -46,7 +60,7 @@ since it omits the need of parsing the tokens.
 ```ts
   import { css, LitElement } from 'lit';
   import { customElement } from 'lit/decorators.js';
-  import { FdsColorToken, FdsTokenColorNeutral200, tokenVar } from '@fintraffic-design/coreui-css';
+  import { FdsColorToken, FdsTokenColorNeutral200, tokenVar } from '@fintraffic/fds-coreui-css';
 
   @customElement('my-component')
   export default class MyComponent extends LitElement {
@@ -67,7 +81,7 @@ e.g. `Typography → Heading small → Heading 1` corresponds to the CSS class `
 ```ts
   import { css, html, LitElement } from 'lit';
   import { customElement } from 'lit/decorators.js';
-  import { headingSmall1TextClass } from '@fintraffic-design/coreui-css';
+  import { headingSmall1TextClass } from '@fintraffic/fds-coreui-css';
 
   @customElement('my-component')
   export default class MyComponent extends LitElement {
@@ -94,7 +108,7 @@ Style properties are CSS property values derived from the tokens. These can be u
 ```ts
   import { css, LitElement } from 'lit';
   import { customElement } from 'lit/decorators.js';
-  import { FdsSize1 } from '@fintraffic-design/coreui-css';
+  import { FdsSize1 } from '@fintraffic/fds-coreui-css';
 
   @customElement('my-component')
   export default class MyComponent extends LitElement {
