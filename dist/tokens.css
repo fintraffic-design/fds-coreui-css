@@ -197,6 +197,15 @@
   --fds-typography-ui-tag-display: inline-block;
   --fds-color-brand-black: #000000;
   --fds-color-brand-white: #ffffff;
+  --fds-color-brand-turquoise: #00FFCD;
+  --fds-color-brand-secondary-rusko: #FF9B8A;
+  --fds-color-brand-secondary-routa: #E3E3E3;
+  --fds-color-brand-secondary-asfaltti: #737373;
+  --fds-color-brand-secondary-taivas: #5FBAF2;
+  --fds-color-brand-secondary-mustikka: #202647;
+  --fds-color-brand-secondary-lippu: #213BF7;
+  --fds-color-brand-secondary-havu: #306060;
+  --fds-color-brand-secondary-siimes: #3F8C82;
   --fds-color-danger-50: #FFF0ED;
   --fds-color-danger-100: #ff9b87;
   --fds-color-danger-200: #e55636;
