@@ -198,6 +198,15 @@ export const FdsTypographyUiTagFontWeight: CSSResult
 export const FdsTypographyUiTagDisplay: CSSResult
 export const FdsColorBrandBlack: CSSResult
 export const FdsColorBrandWhite: CSSResult
+export const FdsColorBrandTurquoise: CSSResult
+export const FdsColorBrandSecondaryRusko: CSSResult
+export const FdsColorBrandSecondaryRouta: CSSResult
+export const FdsColorBrandSecondaryAsfaltti: CSSResult
+export const FdsColorBrandSecondaryTaivas: CSSResult
+export const FdsColorBrandSecondaryMustikka: CSSResult
+export const FdsColorBrandSecondaryLippu: CSSResult
+export const FdsColorBrandSecondaryHavu: CSSResult
+export const FdsColorBrandSecondarySiimes: CSSResult
 export const FdsColorDanger50: CSSResult
 export const FdsColorDanger100: CSSResult
 export const FdsColorDanger200: CSSResult
