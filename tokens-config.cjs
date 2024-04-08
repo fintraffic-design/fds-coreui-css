@@ -126,7 +126,7 @@ module.exports = {
           .sort()
           .map(indent())
           .join(',\n'),
-        `} from './style-properties'\n`,
+        `} from './style-properties.js'\n`,
         `import { css } from 'lit'\n`,
         ...styles
           .sort((a, b) => a.className.localeCompare(b.className))
